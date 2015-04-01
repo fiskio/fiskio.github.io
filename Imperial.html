@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <head>
+
+
+<script type="text/javascript" src="/static/js/analytics.js"></script>
+<script type="text/javascript">archive_analytics.values.server_name="wwwb-app4.us.archive.org";archive_analytics.values.server_ms=157;</script>
+<link type="text/css" rel="stylesheet" href="/static/css/banner-styles.css"/>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <meta name="Generator" content="iWeb 3.0.1" />
+    <meta name="iWeb-Build" content="local-build-20090825" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta name="viewport" content="width=700" />
+    <title>
+ Marco Fiscato
+  personal web page</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="Imperial_files/Imperial.css" />
+    <!--[if lt IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Imperial_files/ImperialIE.css'/><![endif]-->
+    <!--[if gte IE 8]><link rel='stylesheet' type='text/css' media='screen,print' href='Media/IE8.css'/><![endif]-->
+    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
+    <script type="text/javascript" src="Scripts/iWebImage.js"></script>
+    <script type="text/javascript" src="Imperial_files/Imperial.js"></script>
+  </head>
+  <body style="background: rgb(255, 255, 255); margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
+
+
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" src="/static/js/disclaim-element.js" ></script>
+<script type="text/javascript" src="/static/js/graph-calc.js" ></script>
+<script type="text/javascript" src="/static/jflot/jquery.min.js" ></script>
+<script type="text/javascript">//<![CDATA[
+var __wm = (function(){
+var wbPrefix = "/web/";
+var wbCurrentUrl = "http://www.doc.ic.ac.uk/~mfiscato/home/Imperial.html";
+
+var firstYear = 1996;
+var imgWidth = 500,imgHeight = 27;
+var yearImgWidth = 25,monthImgWidth = 2;
+var displayDay = "24";
+var displayMonth = "Nov";
+var displayYear = "2009";
+var prettyMonths = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+var $D=document,$=function(n){return document.getElementById(n)};
+var trackerVal,curYear = -1,curMonth = -1;
+var yearTracker,monthTracker;
+function showTrackers(val) {
+  if (val===trackerVal) return;
+  var $ipp=$("wm-ipp");
+  var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+  if (val) {
+    $ipp.className="hi";
+  } else {
+    $ipp.className="";
+    $y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+  }
+  yearTracker.style.display=val?"inline":"none";
+  monthTracker.style.display=val?"inline":"none";
+  trackerVal = val;
+}
+function getElementX2(obj) {
+  var $e=jQuery(obj);
+  return (typeof $e=="undefined"||typeof $e.offset=="undefined")?
+    getElementX(obj):Math.round($e.offset().left);
+}
+function trackMouseMove(event,element) {
+  var eventX = getEventX(event);
+  var elementX = getElementX2(element);
+  var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+  var monthOff = xOff % yearImgWidth;
+
+  var year = Math.floor(xOff / yearImgWidth);
+  var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+  // 1 extra border pixel at the left edge of the year:
+  var month = (year * 12) + monthOfYear;
+  var day = monthOff % 2==1?15:1;
+  var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+    zeroPad(day,2) + "000000";
+
+  $("displayYearEl").innerHTML=year+firstYear;
+  $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+  // looks too jarring when it changes..
+  //$("displayDayEl").innerHTML=zeroPad(day,2);
+  var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+  $("wm-graph-anchor").href=url;
+
+  if(curYear != year) {
+    var yrOff = year * yearImgWidth;
+    yearTracker.style.left = yrOff + "px";
+    curYear = year;
+  }
+  if(curMonth != month) {
+    var mtOff = year + (month * monthImgWidth) + 1;
+    monthTracker.style.left = mtOff + "px";
+    curMonth = month;
+  }
+}
+function hideToolbar() {
+  $("wm-ipp").style.display="none";
+}
+function bootstrap() {
+  var $spk=$("wm-ipp-sparkline");
+  yearTracker=$D.createElement('div');
+  yearTracker.className='yt';
+  with(yearTracker.style){
+    display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+  }
+  monthTracker=$D.createElement('div');
+  monthTracker.className='mt';
+  with(monthTracker.style){
+    display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+  }
+  $spk.appendChild(yearTracker);
+  $spk.appendChild(monthTracker);
+
+  var $ipp=$("wm-ipp");
+  $ipp&&disclaimElement($ipp);
+}
+return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+})();//]]>
+</script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  min-width:800px !important;
+}
+</style>
+<div id="wm-ipp" lang="en" style="display:none;">
+
+<div style="position:fixed;left:0;top:0;width:100%!important">
+<div id="wm-ipp-inside">
+   <table style="width:100%;"><tbody><tr>
+   <td id="wm-logo">
+       <a href="/web/" title="Wayback Machine home page"><img src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback Machine" width="110" height="39" border="0" /></a>
+   </td>
+   <td class="c">
+       <table style="margin:0 auto;"><tbody><tr>
+       <td class="u" colspan="2">
+       <form target="_top" method="get" action="/web/form-submit.jsp" name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" value="http://www.doc.ic.ac.uk/~mfiscato/home/Imperial.html" style="width:400px;" onfocus="this.focus();this.select();" /><input type="hidden" name="type" value="replay" /><input type="hidden" name="date" value="20091124002117" /><input type="submit" value="Go" /><span id="wm_tb_options" style="display:block;"></span></form>
+       </td>
+       <td class="n" rowspan="2">
+           <table><tbody>
+           <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+           <tr class="m">
+           	<td class="b" nowrap="nowrap">
+		
+		    Oct
+		
+		</td>
+		<td class="c" id="displayMonthEl" title="You are here: 0:21:17 Nov 24, 2009">NOV</td>
+		<td class="f" nowrap="nowrap">
+		
+		    <a href="/web/20120219034211/http://www.doc.ic.ac.uk/~mfiscato/home/Imperial.html" title="19 Feb 2012"><strong>FEB</strong></a>
+		
+                </td>
+	    </tr>
+           <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+           <tr class="d">
+               <td class="b" nowrap="nowrap">
+               
+                       <img src="/static/images/toolbar/wm_tb_prv_off.png" alt="Previous capture" width="14" height="16" border="0" />
+               
+               </td>
+               <td class="c" id="displayDayEl" style="width:34px;font-size:24px;" title="You are here: 0:21:17 Nov 24, 2009">24</td>
+	       <td class="f" nowrap="nowrap">
+               
+		   <a href="/web/20120219034211/http://www.doc.ic.ac.uk/~mfiscato/home/Imperial.html" title="3:42:11 Feb 19, 2012"><img src="/static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" width="14" height="16" border="0" /></a>
+	       
+	       </td>
+           </tr>
+           <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+           <tr class="y">
+	       <td class="b" nowrap="nowrap">
+               
+                   2008
+               
+               </td>
+               <td class="c" id="displayYearEl" title="You are here: 0:21:17 Nov 24, 2009">2009</td>
+	       <td class="f" nowrap="nowrap">
+               
+	           <a href="/web/20120219034211/http://www.doc.ic.ac.uk/~mfiscato/home/Imperial.html" title="19 Feb 2012"><strong>2012</strong></a>
+	       
+	       </td>
+           </tr>
+           </tbody></table>
+       </td>
+       </tr>
+       <tr>
+       <td class="s">
+           <a class="t" href="/web/20091124002117*/http://www.doc.ic.ac.uk/~mfiscato/home/Imperial.html" title="See a list of every capture for this URL">2 captures</a>
+           <div class="r" title="Timespan for captures of this URL">24 Nov 09 - 19 Feb 12</div>
+       </td>
+       <td class="k">
+       <a href="" id="wm-graph-anchor">
+       <div id="wm-ipp-sparkline" title="Explore captures for this URL">
+	 <img id="sparklineImgId" alt="sparklines"
+		 onmouseover="__wm.st(1)" onmouseout="__wm.st(0)"
+		 onmousemove="__wm.mv(event,this)"
+		 width="500"
+		 height="27"
+		 border="0"
+		 src="/web/jsp/graph.jsp?graphdata=500_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:-1:000000000000_2004:-1:000000000000_2005:-1:000000000000_2006:-1:000000000000_2007:-1:000000000000_2008:-1:000000000000_2009:10:000000000010_2010:-1:000000000000_2011:-1:000000000000_2012:-1:010000000000_2013:-1:000000000000_2014:-1:000000000000_2015:-1:000000000000" />
+       </div>
+       </a>
+       </td>
+       </tr></tbody></table>
+   </td>
+   <td class="r">
+       <a href="#close" onclick="__wm.h();return false;" style="background-image:url(/static/images/toolbar/wm_tb_close.png);top:5px;" title="Close the toolbar">Close</a>
+       <a href="http://faq.web.archive.org/" style="background-image:url(/static/images/toolbar/wm_tb_help.png);bottom:5px;" title="Get some help using the Wayback Machine">Help</a>
+   </td>
+   </tr></tbody></table>
+</div>
+</div>
+</div>
+<script type="text/javascript">__wm.bt();</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+    <div style="text-align: center; ">
+      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: rgb(255, 255, 255); text-align: left; width: 700px; " id="body_content">
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 64px; margin-top: 0px; opacity: 1.00; position: relative; width: 510px; z-index: 1; ">
+    
+            <div id="widget0-navbar" class="navbar">
+
+      
+              <div id="widget0-bg" class="navbar-bg">
+
+        
+                <ul id="widget0-navbar-list" class="navbar-list">
+ <li></li> 
+</ul>
+                
+      
+</div>
+              
+    
+</div>
+          </div>
+          <script type="text/javascript"><!--//--><![CDATA[//><!--
+new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"current-page-GUID": "2A5DC9B9-92CD-49C3-B44D-9E7D5D4B6AC3", "path-to-root": "", "isCollectionPage": "NO", "navbar-css": ".navbar {\n\tfont-family: Arial, sans-serif;\n\tfont-size: 1em;\n\tcolor: #666;\n\tmargin: 9px 0px 6px 0px;\n\tline-height: 30px;\n}\n\n.navbar-bg {\n\ttext-align: center;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 10px 0px 10px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tcolor: #666;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tcolor: #666;\n}\n\nli a:hover\r{\r\n \tcolor: #463C3C;\n\ttext-decoration: none;\r}\n\n\nli.current-page a\r{\r\t color: #463C3C;\n\ttext-decoration: none;\n\tfont-weight: bold;\r\r}\n"});
+//--><!]]></script>
+          <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
+        </div>
+        <div style="height: 106px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div id="id1" style="height: 106px; left: 20px; position: absolute; top: 0px; width: 677px; z-index: 1; " class="style_SkipStroke shape-with-text">
+            <div class="text-content style_External_677_106" style="padding: 0px; ">
+              <div class="style">
+                <p style="padding-top: 0pt; " class="paragraph_style"><br /></p>
+                <p class="paragraph_style_1"> Marco Fiscato<br /></p>
+                <p style="padding-bottom: 0pt; " class="paragraph_style_2">  personal web page</p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div style="height: 55px; width: 154px;  height: 55px; left: 494px; position: absolute; top: 25px; width: 154px; z-index: 1; " class="tinyText style_SkipStroke_1 stroke_0">
+            <a href="/web/20091124002117/http://www3.imperial.ac.uk/" title="http://www3.imperial.ac.uk/"><img src="Imperial_files/droppedImage.jpg" alt="" style="border: none; height: 55px; width: 154px; " /></a>
+          </div>
+        </div>
+        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+          <div style="height: 333px; width: 411px;  height: 313px; left: 41px; position: absolute; top: 22px; width: 386px; z-index: 1; " class="tinyText shadow_0">
+            <div style="position: relative; width: 386px; ">
+              <img src="Imperial_files/shapeimage_1.png" alt="" style="height: 333px; left: 0px; margin-left: -17px; margin-top: -9px; position: absolute; top: 0px; width: 411px; " />
+            </div>
+          </div>
+          
+
+
+          <div id="id2" style="height: 100px; left: 474px; position: absolute; top: 54px; width: 178px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_178_100" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default"></div>
+            </div>
+          </div>
+          
+
+
+          <div class="tinyText" style="height: 223px; left: 460px; position: absolute; top: 18px; width: 221px; z-index: 1; ">
+            <img usemap="#map1" id="shapeimage_2" src="Imperial_files/shapeimage_2.png" style="border: none; height: 232px; left: -6px; position: absolute; top: -6px; width: 233px; z-index: 1; " alt="Room 346&#10;Huxley Building&#10;Department of Computing&#10;Imperial College London&#10;180 Queen's Gate&#10;London SW7 2AZ&#10;United Kingdom" title="" /><map name="map1" id="map1"><area href="/web/20091124002117/http://maps.google.com/maps?hl=en&amp;um=1&amp;ie=UTF-8&amp;q=Imperial+College+London+180+Queen%27s+Gate+London+SW7+2AZ+United+Kingdom&amp;fb=1&amp;split=1&amp;ei=ZQppSrX9C6COjAfnlM2VCw&amp;sa=X&amp;oi=local_group&amp;ct=image&amp;resnum=1" title="http://maps.google.com/maps?hl=en&amp;um=1&amp;ie=UTF-8&amp;q=Imperial+College+London+180+Queen's+Gate+London+SW7+2AZ+United+Kingdom&amp;fb=1&amp;split=1&amp;ei=ZQppSrX9C6COjAfnlM2VCw&amp;sa=X&amp;oi=local_group&amp;ct=image&amp;resnum=1" alt="http://maps.google.com/maps?hl=en&amp;um=1&amp;ie=UTF-8&amp;q=Imperial+College+London+180+Queen%27s+Gate+London+SW7+2AZ+United+Kingdom&amp;fb=1&amp;split=1&amp;ei=ZQppSrX9C6COjAfnlM2VCw&amp;sa=X&amp;oi=local_group&amp;ct=image&amp;resnum=1" coords="6, 6, 227, 229" /></map>
+          </div>
+          
+
+
+          <div id="id3" style="height: 751px; left: 31px; position: absolute; top: 351px; width: 655px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_655_751" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <p style="padding-top: 0pt; " class="paragraph_style_3">About Me:<br /></p>
+                <p class="paragraph_style_4">I am a PhD student at <a href="/web/20091124002117/http://www3.imperial.ac.uk/" title="http://www3.imperial.ac.uk/">Imperial College London</a>, in the <a href="/web/20091124002117/http://www3.imperial.ac.uk/computing" title="http://www3.imperial.ac.uk/computing">Department of Computing</a>. I belong to the <a href="/web/20091124002117/http://platypus.doc.ic.ac.uk/research/" title="http://platypus.doc.ic.ac.uk/research/">Large-scale Distributed Systems</a>, my supervisor is <a href="/web/20091124002117/http://www.doc.ic.ac.uk/~prp" title="http://www.doc.ic.ac.uk/~prp">Peter Pietzuch</a>. I am working on DISSP: the Dependable Internet-Scale Stream Processing system. I investigate the dependability issues arising when building an internet-scale stream processing system, when failure is going to be the common case. We want to build a system able to work at such a scale, able to work under constant failure, reporting the quality of service in real time to the user. Our first effort has been the development of a <a href="/web/20091124002117/http://livepage.apple.com/" title="http://livepage.apple.com/">Quality-centric Data Mode</a>l to enhance data streams with a set of quality metrics.<br /></p>
+                <p class="paragraph_style_5"><br /></p>
+                <p class="paragraph_style_6">Education:<br /></p>
+                <p class="paragraph_style_4">I started my university studies at the <a href="/web/20091124002117/http://www.unibo.it/" title="http://www.unibo.it">Universtiy of Bologna</a>, in the <a href="/web/20091124002117/http://www.cs.unibo.it/" title="http://www.cs.unibo.it/">Computer Science</a> department. In March 2006 I got my bachelor degree in Computer Science with the mark <br /></p>
+                <p class="paragraph_style_4">of 110 Cum Laude. During this time I have been also a member of the <a href="/web/20091124002117/http://www.collegio.unibo.it/index.php?page=english-version" title="http://www.collegio.unibo.it/index.php?page=english-version">Collegio Superiore</a> of the University of Bologna.<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">For my master degree I moved to the Netherlands. I attended the master in <a href="/web/20091124002117/http://www.vu.nl/en/programmes/international-masters/programmes/n-q/parallel-and-distributed-computer-systems-msc/index.asp" title="http://www.vu.nl/en/programmes/international-masters/programmes/n-q/parallel-and-distributed-computer-systems-msc/index.asp">Parallel and Distributed Computer Systems</a> at the <a href="/web/20091124002117/http://www.vu.nl/en/index.asp" title="http://www.vu.nl/en/index.asp">Vrije Universiteit</a> in Amsterdam. <br /></p>
+                <p class="paragraph_style_4">I graduated in September 2008. My master thesis was about decentralized scheduling on large-scale Grids.<br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_6">Publications:<br /></p>
+                <p class="paragraph_style_4">[1]  Marco Fiscato, Paolo Costa and Guillame Pierre.  <br /></p>
+                <p class="paragraph_style_4">      <span class="style_1">On the Feasibility of Decentralized Grid Scheduling</span><br /></p>
+                <p class="paragraph_style_4">      I<span class="style_2">n Selfman Workshop at SASO, 2008</span><br /></p>
+                <p class="paragraph_style_4">      <a href="/web/20091124002117/http://www.doc.ic.ac.uk/~mfiscato/papers/mfiscato-selfman08.pdf" title="http://www.doc.ic.ac.uk/~mfiscato/papers/mfiscato-selfman08.pdf">pdf</a>  <a href="/web/20091124002117/http://www.doc.ic.ac.uk/~mfiscato/papers/mfiscato-selfman08.bib" title="http://www.doc.ic.ac.uk/~mfiscato/papers/mfiscato-selfman08.bib">bib</a><br /></p>
+                <p class="paragraph_style_4"><br /></p>
+                <p class="paragraph_style_4">[2]  Marco Fiscato, Quang Hieu Vu and Peter Pietzuch<br /></p>
+                <p class="paragraph_style_4">      <span class="style_1">A Quality-Centric Data Model for Distributed Stream Management Systems<br /></span></p>
+                <p class="paragraph_style_4">      <span class="style_2">In 7th International Workshop on Quality in Database at VLDB, 2009.</span><br /></p>
+                <p class="paragraph_style_4">      <a href="/web/20091124002117/http://www.doc.ic.ac.uk/~mfiscato/papers/dissp-qdb2009.pdf" title="http://www.doc.ic.ac.uk/~mfiscato/papers/dissp-qdb2009.pdf">pdf</a>  <a href="/web/20091124002117/http://www.doc.ic.ac.uk/~mfiscato/papers/dissp-qdb2009.bib" title="http://www.doc.ic.ac.uk/~mfiscato/papers/dissp-qdb2009.bib">bib</a><br /></p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div class="tinyText" style="height: 27px; left: 460px; position: absolute; top: 277px; width: 46px; z-index: 1; ">
+            <img usemap="#map2" id="shapeimage_3" src="Imperial_files/shapeimage_3.png" style="border: none; height: 38px; left: -5px; position: absolute; top: -5px; width: 56px; z-index: 1; " alt="PGP " title="" /><map name="map2" id="map2"><area href="/web/20091124002117/http://www.doc.ic.ac.uk/~mfiscato/id_dsa.pub" title="http://www.doc.ic.ac.uk/~mfiscato/id_dsa.pub" alt="http://www.doc.ic.ac.uk/~mfiscato/id_dsa.pub" onmouseout="IMmouseout('shapeimage_3', '0');" shape="rect" onmouseover="IMmouseover('shapeimage_3', '0');" coords="9, 9, 45, 30" /><area href="/web/20091124002117/http://www.vu.nl/en/index.asp" title="http://www.vu.nl/en/index.asp" alt="http://www.vu.nl/en/index.asp" coords="5, 5, 51, 32" /></map><img style="height: 21px; left: 4px; position: absolute; top: 4px; width: 36px; " alt="shapeimage_3_link_0" src="Imperial_files/shapeimage_3_link_0.png" id="shapeimage_3_link_0" />
+          </div>
+          
+
+
+          <div style="height: 41px; width: 247px;  height: 41px; left: 444px; position: absolute; top: 240px; width: 247px; z-index: 1; " class="tinyText style_SkipStroke_1 stroke_0">
+            <img src="Imperial_files/email.jpg" alt="" style="border: none; height: 42px; width: 247px; " />
+          </div>
+          
+
+
+          <div id="id4" style="height: 100px; left: 300px; position: absolute; top: 860px; width: 100px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_100_100" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default"></div>
+            </div>
+          </div>
+          
+
+
+          <div id="id6" style="height: 124px; left: 38px; position: absolute; top: 1102px; width: 645px; z-index: 1; " class="style_SkipStroke_2 shape-with-text">
+            <div class="text-content graphic_textbox_layout_style_default_External_645_124" style="padding: 0px; ">
+              <div class="graphic_textbox_layout_style_default">
+                <div class="paragraph paragraph_style_7" style="padding-bottom: 0pt; padding-top: 0pt; "><div id="id5" style="height: 109px; position: relative; width: 601px; " class="style_SkipStroke_2 shape-with-text inline-block"><div class="text-content graphic_textbox_layout_style_default_External_601_109" style="padding: 0px; "><div class="graphic_textbox_layout_style_default"><p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_8">...and now to something completely different</p></div></div></div></div>
+              </div>
+              <div style="clear: both; height: 0px; line-height: 0px; " class="tinyText"> </div>
+            </div>
+          </div>
+          <div style="height: 1226px; line-height: 1226px; " class="spacer"> </div>
+        </div>
+        <div style="height: 150px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
+          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+        </div>
+      </div>
+    </div>
+  <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "/web/20091124002117/https://ssl." : "/web/20091124002117/http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10361648-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
+
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 0:21:17 Nov 24, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:11:22 Apr 1, 2015.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
