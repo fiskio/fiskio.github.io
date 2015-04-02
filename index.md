@@ -7,7 +7,7 @@ image:
   feature: aurora2.png
 ---
 
-I am a research engineer at [SwiftKey](www.swiftkey.com). I specialise in applications of deep learning to natural language processing. I am especially interested in recurrent and convolutional neural networks applied to next word prediction and sentiment analysis. I like to develop my software in [Torch](www.torch.ch) and [DP](https://github.com/nicholas-leonard/dp).
+I am a research engineer at [SwiftKey](http://www.swiftkey.com). I specialise in applications of deep learning to natural language processing. I am especially interested in recurrent and convolutional neural networks applied to next word prediction and sentiment analysis. I like to develop my software in [Torch](http://www.torch.ch) and [DP](https://github.com/nicholas-leonard/dp).
 I often dream of the [babel fish](http://hitchhikers.wikia.com/wiki/Babel_Fish).
 
 ###Education:
