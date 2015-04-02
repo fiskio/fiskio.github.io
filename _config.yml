@@ -11,8 +11,8 @@ permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
 sass:
-  sass_dir: _sass
-  style: compressed
+sass_dir:    _sass
+style:       compressed
 gems:
   - jekyll-sitemap
 
@@ -27,7 +27,7 @@ kramdown:
 # Site owner
 owner:
   name: Marco Fiscato
-  avatar: bio-photo.jpg
+  avatar: nn_icon.png
   bio: "Research engineer at SwiftKey. Passionate about deep learning, NLP and craft beer."
   email: fiskio@luckybrews.com
   disqus-shortname: 
@@ -35,7 +35,7 @@ owner:
   facebook: #username
   google:
     plus: #username
-    analytics: 
+    analytics: UA-61467992-1
     verify: 
     ad-client: 
     ad-slot: 
