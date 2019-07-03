@@ -1,0 +1,41 @@
+count,desc,id,percentage,smarts,smiles
+3,Ketone,1029,30.0%,[#6]-C(=O)-[#6],"['CCC1=[O+][Cu-3]2([O+]=C(CC)C1)[O+]=C(CC)CC(CC)=[O+]2', 'C(=Cc1ccccc1)C1=[O+][Cu-3]2([O+]=C(C=Cc3ccccc3)CC(c3ccccc3)=[O+]2)[O+]=C(c2ccccc2)C1', 'CC1=C2C(=COC(C)C2C)C(O)=C(C(=O)O)C1=O']"
+3,S/PO3 groups,1245,30.0%,"[P,S](~O)(~O)~O","['Nc1ccc(C=Cc2ccc(N)cc2S(=O)(=O)O)c(S(=O)(=O)O)c1', 'O=S(=O)(O)CCS(=O)(=O)O', 'CCOP(=O)(Nc1cccc(Cl)c1)OCC']"
+2,beta-keto/anhydride,72,20.0%,"[C,c](=O)[CX4,CR0X3,O][C,c](=O)","['CCC1=[O+][Cu-3]2([O+]=C(CC)C1)[O+]=C(CC)CC(CC)=[O+]2', 'C(=Cc1ccccc1)C1=[O+][Cu-3]2([O+]=C(C=Cc3ccccc3)CC(c3ccccc3)=[O+]2)[O+]=C(c2ccccc2)C1']"
+2,charged oxygen or sulfur atoms,76,20.0%,"[O+,o+,S+,s+]","['CCC1=[O+][Cu-3]2([O+]=C(CC)C1)[O+]=C(CC)CC(CC)=[O+]2', 'C(=Cc1ccccc1)C1=[O+][Cu-3]2([O+]=C(C=Cc3ccccc3)CC(c3ccccc3)=[O+]2)[O+]=C(c2ccccc2)C1']"
+2,contains_metal,221,20.0%,"[$([Ru]),$([Rh]),$([Se]),$([se]),$([Pd]),$([Sc]),$([Bi]),$([Sb]),$([Ag]),$([Ti]),$([Al]),$([Cd]),$([V]),$([In]),$([Cr]),$([Sn]),$([Mn]),$([La]),$([Fe]),$([Er]),$([Tm]),$([Yb]),$([Lu]),$([Hf]),$([Ta]),$([W]),$([Re]),$([Co]),$([Os]),$([Ni]),$([Ir]),$([Cu]),$([Zn]),$([Ga]),$([Ge]),$([As]),$([as]),$([Y]),$([Zr]),$([Nb]),$([Ce]),$([Pr]),$([Nd]),$([Sm]),$([Eu]),$([Gd]),$([Tb]),$([Dy]),$([Ho]),$([Pt]),$([Au]),$([Hg]),$([Tl]),$([Pb]),$([Ac]),$([Th]),$([Pa]),$([Mo]),$([U]),$([Tc]),$([Te]),$([Po]),$([At])]","['CCC1=[O+][Cu-3]2([O+]=C(CC)C1)[O+]=C(CC)CC(CC)=[O+]2', 'C(=Cc1ccccc1)C1=[O+][Cu-3]2([O+]=C(C=Cc3ccccc3)CC(c3ccccc3)=[O+]2)[O+]=C(c2ccccc2)C1']"
+2,oxonium,276,20.0%,"[o+,O+]","['CCC1=[O+][Cu-3]2([O+]=C(CC)C1)[O+]=C(CC)CC(CC)=[O+]2', 'C(=Cc1ccccc1)C1=[O+][Cu-3]2([O+]=C(C=Cc3ccccc3)CC(c3ccccc3)=[O+]2)[O+]=C(c2ccccc2)C1']"
+2,unacceptable atoms,1003,20.0%,[!#6;!#7;!#8;!#16;!#1;!#3;!#9;!#11;!#12;!#15;!#17;!#19;!#20;!#30;!#35],"['CCC1=[O+][Cu-3]2([O+]=C(CC)C1)[O+]=C(CC)CC(CC)=[O+]2', 'C(=Cc1ccccc1)C1=[O+][Cu-3]2([O+]=C(C=Cc3ccccc3)CC(c3ccccc3)=[O+]2)[O+]=C(c2ccccc2)C1']"
+2,Filter9_metal,1112,20.0%,"[!#1!#6!#7!#8!#9!#15!#16!#17]~[*,#1]","['CCC1=[O+][Cu-3]2([O+]=C(CC)C1)[O+]=C(CC)CC(CC)=[O+]2', 'C(=Cc1ccccc1)C1=[O+][Cu-3]2([O+]=C(C=Cc3ccccc3)CC(c3ccccc3)=[O+]2)[O+]=C(c2ccccc2)C1']"
+2,phenylethene,979,20.0%,c1ccccc1!@[CH]=!@[C!H0],"['C(=Cc1ccccc1)C1=[O+][Cu-3]2([O+]=C(C=Cc3ccccc3)CC(c3ccccc3)=[O+]2)[O+]=C(c2ccccc2)C1', 'Nc1ccc(C=Cc2ccc(N)cc2S(=O)(=O)O)c(S(=O)(=O)O)c1']"
+2,Filter44_michael_acceptor2,1147,20.0%,"[#6,#1,OH0][C!$(C1(=O)C=CC(=O)C=C1)](=O)C=[C!$(C[Nv3X3,OH])]","['C(=Cc1ccccc1)C1=[O+][Cu-3]2([O+]=C(C=Cc3ccccc3)CC(c3ccccc3)=[O+]2)[O+]=C(c2ccccc2)C1', 'CC1=C2C(=COC(C)C2C)C(O)=C(C(=O)O)C1=O']"
+2,Sulfonic acid,146,20.0%,"S(=O)(=O)[O-,OH]","['Nc1ccc(C=Cc2ccc(N)cc2S(=O)(=O)O)c(S(=O)(=O)O)c1', 'O=S(=O)(O)CCS(=O)(=O)O']"
+2,gte_2_sulfonic_acid,237,20.0%,"[C,c]S(=O)(=O)[O;D1].[C,c]S(=O)(=O)[O;D1]","['Nc1ccc(C=Cc2ccc(N)cc2S(=O)(=O)O)c(S(=O)(=O)O)c1', 'O=S(=O)(O)CCS(=O)(=O)O']"
+2,sulphates,957,20.0%,[#6]S(=O)(=O)O,"['Nc1ccc(C=Cc2ccc(N)cc2S(=O)(=O)O)c(S(=O)(=O)O)c1', 'O=S(=O)(O)CCS(=O)(=O)O']"
+2,Sulfonic acid,1015,20.0%,[OH]-S(=O)(=O)-*,"['Nc1ccc(C=Cc2ccc(N)cc2S(=O)(=O)O)c(S(=O)(=O)O)c1', 'O=S(=O)(O)CCS(=O)(=O)O']"
+2,I4 Disulphides,35,20.0%,SS,"['O=[N+]([O-])c1ccc(SSc2ccc([N+](=O)[O-])cc2[N+](=O)[O-])c([N+](=O)[O-])c1', 'O=[N+]([O-])c1ccccc1SSc1ccccc1[N+](=O)[O-]']"
+2,nitro group,123,20.0%,[N+](=O)[O-],"['O=[N+]([O-])c1ccc(SSc2ccc([N+](=O)[O-])cc2[N+](=O)[O-])c([N+](=O)[O-])c1', 'O=[N+]([O-])c1ccccc1SSc1ccccc1[N+](=O)[O-]']"
+2,Oxygen-nitrogen single bond,127,20.0%,"[OR0,NR0][OR0,NR0]","['O=[N+]([O-])c1ccc(SSc2ccc([N+](=O)[O-])cc2[N+](=O)[O-])c([N+](=O)[O-])c1', 'O=[N+]([O-])c1ccccc1SSc1ccccc1[N+](=O)[O-]']"
+2,disulfide_acyclic,229,20.0%,[S;!R;X2]-[S;!R;X2],"['O=[N+]([O-])c1ccc(SSc2ccc([N+](=O)[O-])cc2[N+](=O)[O-])c([N+](=O)[O-])c1', 'O=[N+]([O-])c1ccccc1SSc1ccccc1[N+](=O)[O-]']"
+2,disulfides,872,20.0%,[SX2][SX2],"['O=[N+]([O-])c1ccc(SSc2ccc([N+](=O)[O-])cc2[N+](=O)[O-])c([N+](=O)[O-])c1', 'O=[N+]([O-])c1ccccc1SSc1ccccc1[N+](=O)[O-]']"
+2,Nitro_more_than_one,987,20.0%,[N+](=O)[O-].[N+](=O)[O-],"['O=[N+]([O-])c1ccc(SSc2ccc([N+](=O)[O-])cc2[N+](=O)[O-])c([N+](=O)[O-])c1', 'O=[N+]([O-])c1ccccc1SSc1ccccc1[N+](=O)[O-]']"
+2,Dye 16 (1),1047,20.0%,c([N+](=O)[O-]),"['O=[N+]([O-])c1ccc(SSc2ccc([N+](=O)[O-])cc2[N+](=O)[O-])c([N+](=O)[O-])c1', 'O=[N+]([O-])c1ccccc1SSc1ccccc1[N+](=O)[O-]']"
+2,nitro aromatic 2+,1048,20.0%,a-[N+](=O)[O-].a-[N+](=O)[O-],"['O=[N+]([O-])c1ccc(SSc2ccc([N+](=O)[O-])cc2[N+](=O)[O-])c([N+](=O)[O-])c1', 'O=[N+]([O-])c1ccccc1SSc1ccccc1[N+](=O)[O-]']"
+2,Hetero_hetero,1064,20.0%,"*[N,S,O]-&!@[N,S,O][#6]","['O=[N+]([O-])c1ccc(SSc2ccc([N+](=O)[O-])cc2[N+](=O)[O-])c([N+](=O)[O-])c1', 'O=[N+]([O-])c1ccccc1SSc1ccccc1[N+](=O)[O-]']"
+2,Filter56_SS_bond,1157,20.0%,S-S,"['O=[N+]([O-])c1ccc(SSc2ccc([N+](=O)[O-])cc2[N+](=O)[O-])c([N+](=O)[O-])c1', 'O=[N+]([O-])c1ccccc1SSc1ccccc1[N+](=O)[O-]']"
+2,aromatic NO2,1195,20.0%,O~N(=O)-c(:*):*,"['O=[N+]([O-])c1ccc(SSc2ccc([N+](=O)[O-])cc2[N+](=O)[O-])c([N+](=O)[O-])c1', 'O=[N+]([O-])c1ccccc1SSc1ccccc1[N+](=O)[O-]']"
+1,Michael acceptor,113,10.0%,"C=!@CC=[O,S]",['C(=Cc1ccccc1)C1=[O+][Cu-3]2([O+]=C(C=Cc3ccccc3)CC(c3ccccc3)=[O+]2)[O+]=C(c2ccccc2)C1']
+1,vinyl michael acceptor1,1069,10.0%,"[#6]-[CH1]=C-C(=O)[#6,#7,#8]",['C(=Cc1ccccc1)C1=[O+][Cu-3]2([O+]=C(C=Cc3ccccc3)CC(c3ccccc3)=[O+]2)[O+]=C(c2ccccc2)C1']
+1,alpha beta-unsaturated ketones; center of Michael reactivity,1228,10.0%,"[$(C#N),$(N(~O)~O),$(C=O),$(S(=O)=O),$(C(F)(F)F),Cl][C!H0]=[C!H0]",['C(=Cc1ccccc1)C1=[O+][Cu-3]2([O+]=C(C=Cc3ccccc3)CC(c3ccccc3)=[O+]2)[O+]=C(c2ccccc2)C1']
+1,aniline,66,10.0%,c1cc([NH2])ccc1,['Nc1ccc(C=Cc2ccc(N)cc2S(=O)(=O)O)c(S(=O)(=O)O)c1']
+1,stilbene,143,10.0%,c1ccccc1C=Cc2ccccc2,['Nc1ccc(C=Cc2ccc(N)cc2S(=O)(=O)O)c(S(=O)(=O)O)c1']
+1,analine,964,10.0%,"c1ccccc1[NH2,NH3+]",['Nc1ccc(C=Cc2ccc(N)cc2S(=O)(=O)O)c(S(=O)(=O)O)c1']
+1,Dye 25,1043,10.0%,acC=&!@Cca,['Nc1ccc(C=Cc2ccc(N)cc2S(=O)(=O)O)c(S(=O)(=O)O)c1']
+1,aniline,1199,10.0%,[NH2D1]-c(:*):*,['Nc1ccc(C=Cc2ccc(N)cc2S(=O)(=O)O)c(S(=O)(=O)O)c1']
+1,phosphor,132,10.0%,P,['CCOP(=O)(Nc1cccc(Cl)c1)OCC']
+1,phosphorous_nitrogen_bond,294,10.0%,"[#15]~[N,n]",['CCOP(=O)(Nc1cccc(Cl)c1)OCC']
+1,Phosphoric ester,1083,10.0%,COP(=O)(-*)O,['CCOP(=O)(Nc1cccc(Cl)c1)OCC']
+1,alkyl esters of S or P,1204,10.0%,"[S,P](=O)OC",['CCOP(=O)(Nc1cccc(Cl)c1)OCC']
+1,Michael acceptor,116,10.0%,C=C(C=O)C=O,['CC1=C2C(=COC(C)C2C)C(O)=C(C(=O)O)C1=O']
+1,gte_4_nitro,241,10.0%,"[$([N+](=O)[O-]),$(N(=O)=O)].[$([N+](=O)[O-]),$(N(=O)=O)].[$([N+](=O)[O-]),$(N(=O)=O)].[$([N+](=O)[O-]),$(N(=O)=O)]",['O=[N+]([O-])c1ccc(SSc2ccc([N+](=O)[O-])cc2[N+](=O)[O-])c([N+](=O)[O-])c1']
+1,Dinitrobenzene_3,871,10.0%,c1c([N+](=O)[O-])cc([N+](=O)[O-])cc1,['O=[N+]([O-])c1ccc(SSc2ccc([N+](=O)[O-])cc2[N+](=O)[O-])c([N+](=O)[O-])c1']
