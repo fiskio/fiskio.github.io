@@ -1,0 +1,698 @@
+
+<html>
+    <style>
+#filter {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#filter td, #filter th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#filter tr:nth-child(even){background-color: #f2f2f2;}
+
+#filter tr:hover {background-color: #ddd;}
+
+#filter th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+    <body>
+    <table id="filter">
+      <tr>
+        <th>RuleID</th>
+        <th>Description</th>
+        <th>Count</th>
+        <th>Percentage</th>
+        <th>SMARTS</th>
+      </tr>
+      <tr><td>950</td><td><a href="950.html">Long aliphatic chain</a></td><td>14347</td><td>14.35%</td>
+<td>[N,C,S,O]-&!@[N,C,S,O]-&!@[N,C,S,O]-&!@[N,C,S,O]-&!@[N,C,S,O]-&!@[N,C,S,O]-&!@[N,C,S,O]</td><tr><td>943</td><td><a href="943.html">Ester</a></td><td>10802</td><td>10.80%</td>
+<td>[#6]-C(=O)O-[#6]</td><tr><td>61</td><td><a href="61.html">Aliphatic long chain</a></td><td>10513</td><td>10.51%</td>
+<td>[R0;D2][R0;D2][R0;D2][R0;D2]</td><tr><td>970</td><td><a href="970.html">Hetero_hetero</a></td><td>10394</td><td>10.39%</td>
+<td>*[N,S,O]-&!@[N,S,O][#6]</td><tr><td>942</td><td><a href="942.html">Ketone</a></td><td>9703</td><td>9.70%</td>
+<td>[#6]-C(=O)-[#6]</td><tr><td>120</td><td><a href="120.html">Oxygen-nitrogen single bond</a></td><td>8734</td><td>8.73%</td>
+<td>[OR0,NR0][OR0,NR0]</td><tr><td>99</td><td><a href="99.html">imine</a></td><td>7696</td><td>7.70%</td>
+<td>C=[N!R]</td><tr><td>1071</td><td><a href="1071.html">Filter82_pyridinium</a></td><td>5465</td><td>5.46%</td>
+<td>[c,n]1[c,n][c,n][c,n][c,n]n(C)1</td><tr><td>1087</td><td><a href="1087.html">aniline</a></td><td>5097</td><td>5.10%</td>
+<td>[NH2D1]-c(:*):*</td><tr><td>1003</td><td><a href="1003.html">Filter9_metal</a></td><td>5049</td><td>5.05%</td>
+<td>[!#1!#6!#7!#8!#9!#15!#16!#17]~[*,#1]</td><tr><td>106</td><td><a href="106.html">Michael acceptor</a></td><td>4750</td><td>4.75%</td>
+<td>C=!@CC=[O,S]</td><tr><td>972</td><td><a href="972.html">vinyl michael acceptor1</a></td><td>4694</td><td>4.69%</td>
+<td>[#6]-[CH1]=C-C(=O)[#6,#7,#8]</td><tr><td>951</td><td><a href="951.html">Unbranched chain</a></td><td>4122</td><td>4.12%</td>
+<td>[$([A&D2]),$([A&D1])]!@[A&D2]!@[A&D2]!@[A&D2]!@[A&D2]!@[$([A&D2]),$([A&D1])]</td><tr><td>100</td><td><a href="100.html">imine</a></td><td>4001</td><td>4.00%</td>
+<td>N=[CR0][N,n,O,S]</td><tr><td>116</td><td><a href="116.html">nitro group</a></td><td>3971</td><td>3.97%</td>
+<td>[N+](=O)[O-]</td><tr><td>1129</td><td><a href="1129.html">aryl bromide</a></td><td>3831</td><td>3.83%</td>
+<td>Br-c:*</td><tr><td>103</td><td><a href="103.html">isolated alkene</a></td><td>3742</td><td>3.74%</td>
+<td>[$([CH2]),$([CH][CX4]),$(C([CX4])[CX4])]=[$([CH2]),$([CH][CX4]),$(C([CX4])[CX4])]</td><tr><td>953</td><td><a href="953.html">Dye 16 (1)</a></td><td>3741</td><td>3.74%</td>
+<td>c([N+](=O)[O-])</td><tr><td>1083</td><td><a href="1083.html">aromatic NO2</a></td><td>3741</td><td>3.74%</td>
+<td>O~N(=O)-c(:*):*</td><tr><td>1038</td><td><a href="1038.html">Filter44_michael_acceptor2</a></td><td>3629</td><td>3.63%</td>
+<td>[#6,#1,OH0][C!$(C1(=O)C=CC(=O)C=C1)](=O)C=[C!$(C[Nv3X3,OH])]</td><tr><td>1138</td><td><a href="1138.html">high halogen content (>3)</a></td><td>3225</td><td>3.23%</td>
+<td>[F,Cl,Br,I].[F,Cl,Br,I].[F,Cl,Br,I].[F,Cl,Br,I]</td><tr><td>1118</td><td><a href="1118.html">aliphatic ester, not lactones</a></td><td>3013</td><td>3.01%</td>
+<td>C[C!R](=O)[O!R][CH2D2]</td><tr><td>1102</td><td><a href="1102.html">carbamate include di-substitued N</a></td><td>2605</td><td>2.60%</td>
+<td>OC(=O)-!@[NX3]</td><tr><td>1116</td><td><a href="1116.html">alpha beta-unsaturated ketones; center of Michael reactivity</a></td><td>2560</td><td>2.56%</td>
+<td>[$(C#N),$(N(~O)~O),$(C=O),$(S(=O)=O),$(C(F)(F)F),Cl][C!H0]=[C!H0]</td><tr><td>921</td><td><a href="921.html">phenylethene</a></td><td>2410</td><td>2.41%</td>
+<td>c1ccccc1!@[CH]=!@[C!H0]</td><tr><td>1123</td><td><a href="1123.html">acyclic NO not nitro</a></td><td>2206</td><td>2.21%</td>
+<td>O-!@[N;!$(N(=O)=O);!$([N+](=O)[O-])]</td><tr><td>1008</td><td><a href="1008.html">Filter14_thio_oxopyrylium_salt</a></td><td>2159</td><td>2.16%</td>
+<td>c1ccc[s,o;X2]c1</td><tr><td>1130</td><td><a href="1130.html">multiple aromatic rings</a></td><td>2087</td><td>2.09%</td>
+<td>a1aaa2a(a1)aaa(a2):a</td><tr><td>981</td><td><a href="981.html">Dipeptide</a></td><td>2058</td><td>2.06%</td>
+<td>*-C(=O)-&!@[NH]-C-&!@C(=O)-&!@[NH]-*</td><tr><td>949</td><td><a href="949.html">long chain hydrocarbon</a></td><td>2051</td><td>2.05%</td>
+<td>[CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0]</td><tr><td>922</td><td><a href="922.html">Ethene</a></td><td>2036</td><td>2.04%</td>
+<td>C=[CH2]</td><tr><td>903</td><td><a href="903.html">Nitrosone_not_nitro</a></td><td>2033</td><td>2.03%</td>
+<td>[$(N(~!@[#6])!@O);!$([N+]([O-])=O)]</td><tr><td>143</td><td><a href="143.html">Thiocarbonyl group</a></td><td>2033</td><td>2.03%</td>
+<td>[C,c]=S</td><tr><td>1119</td><td><a href="1119.html">long aliphatic chain, 6+</a></td><td>2027</td><td>2.03%</td>
+<td>[CH2][CH2][CH2]-!@[CH2][CH2][CH2]</td><tr><td>16</td><td><a href="16.html">R17 acylhydrazide</a></td><td>1941</td><td>1.94%</td>
+<td>[N;R0][N;R0]C(=O)</td><tr><td>904</td><td><a href="904.html">Thiocarbonyl_group</a></td><td>1706</td><td>1.71%</td>
+<td>C=S</td><tr><td>905</td><td><a href="905.html">enamine_like</a></td><td>1691</td><td>1.69%</td>
+<td>C=[NH]</td><tr><td>1132</td><td><a href="1132.html">S/PO3 groups</a></td><td>1661</td><td>1.66%</td>
+<td>[P,S](~O)(~O)~O</td><tr><td>917</td><td><a href="917.html">aminothiazole</a></td><td>1657</td><td>1.66%</td>
+<td>s1ccnc1[N!H0]</td><tr><td>31</td><td><a href="31.html">I1 Aliphatic methylene chains 7 or more long</a></td><td>1466</td><td>1.47%</td>
+<td>[CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0][CD2;R0]</td><tr><td>125</td><td><a href="125.html">phthalimide</a></td><td>1438</td><td>1.44%</td>
+<td>[cR,CR]~C(=O)NC(=O)~[cR,CR]</td><tr><td>148</td><td><a href="148.html">triple bond</a></td><td>1404</td><td>1.40%</td>
+<td>C#C</td><tr><td>124</td><td><a href="124.html">phosphor</a></td><td>1359</td><td>1.36%</td>
+<td>P</td><tr><td>1094</td><td><a href="1094.html">acyclic N-,=N and not N bound to carbonyl or sulfone</a></td><td>1203</td><td>1.20%</td>
+<td>[N;!$(N-[C,S]=*)]-,=;!@[N;!$(N-[C,S]=*)]</td><tr><td>1109</td><td><a href="1109.html">terminal vinyl</a></td><td>1169</td><td>1.17%</td>
+<td>[CH2D1]=[CD2]-!@*</td><tr><td>1014</td><td><a href="1014.html">Filter20_hydrazine</a></td><td>1162</td><td>1.16%</td>
+<td>[Nv3X3][Nv3X3!H0]</td><tr><td>1033</td><td><a href="1033.html">Filter39_imine</a></td><td>1159</td><td>1.16%</td>
+<td>C[CR0]=[NR0][*!O]</td><tr><td>958</td><td><a href="958.html">Dye 11</a></td><td>1142</td><td>1.14%</td>
+<td>*=,:[#6]C([#6]=,:*)[#6]=,:*</td><tr><td>948</td><td><a href="948.html">thiourea</a></td><td>1122</td><td>1.12%</td>
+<td>NC(=S)N</td><tr><td>1108</td><td><a href="1108.html">thiourea</a></td><td>1122</td><td>1.12%</td>
+<td>N-C(=S)-N</td><tr><td>64</td><td><a href="64.html">aniline</a></td><td>1116</td><td>1.12%</td>
+<td>c1cc([NH2])ccc1</td><tr><td>906</td><td><a href="906.html">analine</a></td><td>1116</td><td>1.12%</td>
+<td>c1ccccc1[NH2,NH3+]</td><tr><td>233</td><td><a href="233.html">gte_8_CF2_or_CH2</a></td><td>1093</td><td>1.09%</td>
+<td>[CH2,$(C(F)(F));R0][CH2,$(C(F)(F));R0][CH2,$(C(F)(F));R0][CH2,$(C(F)(F));R0][CH2,$(C(F)(F));R0][CH2,$(C(F)(F));R0][CH2,$(C(F)(F));R0][CH2,$(C(F)(F));R0]</td><tr><td>35</td><td><a href="35.html">I5 Thiols</a></td><td>1048</td><td>1.05%</td>
+<td>[SH]</td><tr><td>1112</td><td><a href="1112.html">thiols</a></td><td>1048</td><td>1.05%</td>
+<td>*-[S!H0]</td><tr><td>941</td><td><a href="941.html">acetal</a></td><td>1046</td><td>1.05%</td>
+<td>[#6]-O[CH1](-[#6])O-[#6]</td><tr><td>1063</td><td><a href="1063.html">Filter74_thiol</a></td><td>1043</td><td>1.04%</td>
+<td>*[SX2H]</td><tr><td>130</td><td><a href="130.html">quaternary nitrogen</a></td><td>1040</td><td>1.04%</td>
+<td>[s,S,c,C,n,N,o,O]~[nX3+,NX3+](~[s,S,c,C,n,N])~[s,S,c,C,n,N]</td><tr><td>89</td><td><a href="89.html">diketo group</a></td><td>1026</td><td>1.03%</td>
+<td>[C,c](=O)[C,c](=O)</td><tr><td>952</td><td><a href="952.html">Dye 25</a></td><td>1025</td><td>1.02%</td>
+<td>acC=&!@Cca</td><tr><td>222</td><td><a href="222.html">gte_10_carbon_sb_chain</a></td><td>1002</td><td>1.00%</td>
+<td>[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]-[C;!R]</td><tr><td>79</td><td><a href="79.html">cumarine</a></td><td>973</td><td>0.97%</td>
+<td>c1ccc2c(c1)ccc(=O)o2</td><tr><td>965</td><td><a href="965.html">alkyl halide</a></td><td>964</td><td>0.96%</td>
+<td>[Br,Cl,I][CX4,CH,CH2,CH3]</td><tr><td>932</td><td><a href="932.html">unacceptable atoms</a></td><td>946</td><td>0.95%</td>
+<td>[!#6;!#7;!#8;!#16;!#1;!#3;!#9;!#11;!#12;!#15;!#17;!#19;!#20;!#30;!#35]</td><tr><td>62</td><td><a href="62.html">alkyl halide</a></td><td>941</td><td>0.94%</td>
+<td>[CX4][Cl,Br,I]</td><tr><td>869</td><td><a href="869.html">Phenylester</a></td><td>932</td><td>0.93%</td>
+<td>C(=O)!@Oc1ccccc1</td><tr><td>1035</td><td><a href="1035.html">Filter41_12_dicarbonyl</a></td><td>910</td><td>0.91%</td>
+<td>*C(=O)C(=O)*</td><tr><td>70</td><td><a href="70.html">beta-keto/anhydride</a></td><td>909</td><td>0.91%</td>
+<td>[C,c](=O)[CX4,CR0X3,O][C,c](=O)</td><tr><td>969</td><td><a href="969.html">2-halopyridine</a></td><td>898</td><td>0.90%</td>
+<td>[F,Cl,Br][c]1:[c,n]:[c,n]:[c,n]:[c,n]:[n]1</td><tr><td>1092</td><td><a href="1092.html">alkyl esters of S or P</a></td><td>891</td><td>0.89%</td>
+<td>[S,P](=O)OC</td><tr><td>98</td><td><a href="98.html">hydroxamic acid</a></td><td>861</td><td>0.86%</td>
+<td>C(=O)N[OH]</td><tr><td>1122</td><td><a href="1122.html">acyclic C=N-H</a></td><td>830</td><td>0.83%</td>
+<td>[NH1X2]=[C!R;!$(C(-N)(=[NH1])-N)]</td><tr><td>854</td><td><a href="854.html">imines_(not_ring)</a></td><td>821</td><td>0.82%</td>
+<td>[#6][C;R0](=[N;R0,O0])[#6]</td><tr><td>1020</td><td><a href="1020.html">Filter26_alkyl_halide</a></td><td>806</td><td>0.81%</td>
+<td>AA[CH2][F,Cl,Br,I,$(OS(=O)(=O)*)]</td><tr><td>962</td><td><a href="962.html">Dye 22</a></td><td>800</td><td>0.80%</td>
+<td>NS(=O)(=O)c1cccc([#7])c1</td><tr><td>850</td><td><a href="850.html">halo-pyridine,_-diazoles_and_-triazoles</a></td><td>790</td><td>0.79%</td>
+<td>[Cl,Br,I]c1[c,n][c,n][c,n][c,n]n1</td><tr><td>888</td><td><a href="888.html">thioles_(not_aromatic)</a></td><td>784</td><td>0.78%</td>
+<td>[!a][SX2;H1]</td><tr><td>374</td><td><a href="374.html">dyes5A(27)</a></td><td>777</td><td>0.78%</td>
+<td>[#6]=,:[#6]:[#7]([#6])~[#6]:[#6]=,:[#6][#6]~[#6]:[#7]</td><tr><td>0</td><td><a href="0.html">R1 Reactive alkyl halides</a></td><td>776</td><td>0.78%</td>
+<td>[Br,Cl,I][CX4;CH,CH2]</td><tr><td>1135</td><td><a href="1135.html">too many COOH groups (>1)</a></td><td>748</td><td>0.75%</td>
+<td>[CX3](=O)[OH1].[CX3](=O)[OH1]</td><tr><td>127</td><td><a href="127.html">Polycyclic aromatic hydrocarbon</a></td><td>730</td><td>0.73%</td>
+<td>a21aa3a(aa1aaaa2)aaaa3</td><tr><td>73</td><td><a href="73.html">catechol</a></td><td>730</td><td>0.73%</td>
+<td>c1c([OH])c([OH,NH2,NH])ccc1</td><tr><td>890</td><td><a href="890.html">thiourea</a></td><td>722</td><td>0.72%</td>
+<td>[N;!r][C;!r](=S)[N;!r]</td><tr><td>327</td><td><a href="327.html">quinone_A(370)</a></td><td>699</td><td>0.70%</td>
+<td>[!#6&!#1]=[#6]-1-[#6]=,:[#6]-[#6](=[!#6&!#1])-[#6]=,:[#6]-1</td><tr><td>994</td><td><a href="994.html">quinone</a></td><td>697</td><td>0.70%</td>
+<td>[$([o,n]=c1ccc(=[o,n])cc1),$([O,N]=C1C=CC(=[O,N])C=C1),$([O,N]=C1[#6]:,=[#6]C(=[O,N])[#6]:,=[#6]1)]</td><tr><td>244</td><td><a href="244.html">hydroxamate_warhead</a></td><td>695</td><td>0.69%</td>
+<td>C([N;H1]([O;D1]))=O</td><tr><td>47</td><td><a href="47.html">N1 Quinones</a></td><td>689</td><td>0.69%</td>
+<td>O=C1[#6]~[#6]C(=O)[#6]~[#6]1</td><tr><td>1078</td><td><a href="1078.html">Filter89_hydroxylamine</a></td><td>676</td><td>0.68%</td>
+<td>[*!$(C=O)]!@N!@O[*,#1]</td><tr><td>122</td><td><a href="122.html">phenol ester</a></td><td>673</td><td>0.67%</td>
+<td>c1ccccc1OC(=O)[#6]</td><tr><td>918</td><td><a href="918.html">Thiazolidinone</a></td><td>671</td><td>0.67%</td>
+<td>O=C1CSCN1</td><tr><td>60</td><td><a href="60.html">aldehyde</a></td><td>669</td><td>0.67%</td>
+<td>[CH1](=O)</td><tr><td>1032</td><td><a href="1032.html">Filter38_aldehyde</a></td><td>669</td><td>0.67%</td>
+<td>O=[CH]*</td><tr><td>1098</td><td><a href="1098.html">aldehyde</a></td><td>669</td><td>0.67%</td>
+<td>O=[C!H0]</td><tr><td>180</td><td><a href="180.html">alpha_dicarbonyl</a></td><td>669</td><td>0.67%</td>
+<td>C(=O)!@C(=O)</td><tr><td>980</td><td><a href="980.html">Oxalyl</a></td><td>669</td><td>0.67%</td>
+<td>O=C-&!@C=O</td><tr><td>1099</td><td><a href="1099.html">1,2-dicarbonyl not in ring</a></td><td>669</td><td>0.67%</td>
+<td>O=[CX3]-!@[CX3]=O</td><tr><td>1120</td><td><a href="1120.html">quinones</a></td><td>662</td><td>0.66%</td>
+<td>O=[#6]1[#6]:,=[#6][#6](=O)[#6]:,=[#6]1</td><tr><td>985</td><td><a href="985.html">Phosphoric ester</a></td><td>661</td><td>0.66%</td>
+<td>COP(=O)(-*)O</td><tr><td>984</td><td><a href="984.html">Phosphoric acid</a></td><td>659</td><td>0.66%</td>
+<td>[OH]-P(=O)(-O)-*</td><tr><td>1027</td><td><a href="1027.html">Filter33_c10_alkyl</a></td><td>640</td><td>0.64%</td>
+<td>[CH3][CH2][CH2][CH2][CH2][CH2][CH2][CH2][CH2][CH2]</td><tr><td>288</td><td><a href="288.html">primary_halide_sulfate</a></td><td>613</td><td>0.61%</td>
+<td>[CH2][Cl,Br,I,$(O(S(=O)(=O)[!$(N);!$([O&D1])]))]</td><tr><td>1105</td><td><a href="1105.html">alpha halo carbonyl</a></td><td>581</td><td>0.58%</td>
+<td>O=C-C-[F,Cl,Br,I]</td><tr><td>971</td><td><a href="971.html">hydrazine</a></td><td>580</td><td>0.58%</td>
+<td>[#6]-[NH]-[NH]-[#6]</td><tr><td>1104</td><td><a href="1104.html">alkyl halide</a></td><td>574</td><td>0.57%</td>
+<td>[CH2]-[Cl,Br,I]</td><tr><td>1100</td><td><a href="1100.html">carbamate, T-boc Protected</a></td><td>574</td><td>0.57%</td>
+<td>NC(OC([CH3])([CH3])[CH3])=O</td><tr><td>101</td><td><a href="101.html">iodine</a></td><td>556</td><td>0.56%</td>
+<td>I</td><tr><td>959</td><td><a href="959.html">Dye 9</a></td><td>551</td><td>0.55%</td>
+<td>ac-*=&!@*-&!@C(=O)-&!@ca</td><tr><td>1117</td><td><a href="1117.html">aliphatic ketone not ring and not di-carbonyl</a></td><td>531</td><td>0.53%</td>
+<td>[C;!$(C=*)][C!R](=O)[CH2D2]</td><tr><td>342</td><td><a href="342.html">catechol_A(92)</a></td><td>528</td><td>0.53%</td>
+<td>c:1:c:c(:c(:c:c:1)-[#8;H1])-[#8;H1]</td><tr><td>975</td><td><a href="975.html">Michael acceptor 6</a></td><td>520</td><td>0.52%</td>
+<td>[#6,#7]-&!@[#6](=&!@[CH])-&!@C(=O)-&!@[C,N,O,S]</td><tr><td>56</td><td><a href="56.html">2-halo pyridine</a></td><td>514</td><td>0.51%</td>
+<td>n1c([F,Cl,Br,I])cccc1</td><tr><td>1082</td><td><a href="1082.html">Filter94_2_halo_pyridine</a></td><td>514</td><td>0.51%</td>
+<td>c1nc(ccc1)[Br,I,Cl,F]</td><tr><td>1133</td><td><a href="1133.html">adamantyl</a></td><td>514</td><td>0.51%</td>
+<td>C12CC3CC(C1)CC(C2)C3</td><tr><td>95</td><td><a href="95.html">hydantoin</a></td><td>508</td><td>0.51%</td>
+<td>C1NC(=O)NC(=O)1</td><tr><td>134</td><td><a href="134.html">stilbene</a></td><td>508</td><td>0.51%</td>
+<td>c1ccccc1C=Cc2ccccc2</td><tr><td>179</td><td><a href="179.html">aldehyde</a></td><td>508</td><td>0.51%</td>
+<td>[C,c][C;H1](=O)</td><tr><td>808</td><td><a href="808.html">Aldehyde</a></td><td>508</td><td>0.51%</td>
+<td>[#6][C!H0]=O</td><tr><td>939</td><td><a href="939.html">aldehyde</a></td><td>508</td><td>0.51%</td>
+<td>[#6]-[CH1]=O</td><tr><td>988</td><td><a href="988.html">(poly(azo(anthracene))</a></td><td>495</td><td>0.49%</td>
+<td>c12:[c,n]:[c,n]:[c,n]:[c,n]:c1[c,n]c3:[c,n]:[c,n]:[c,n]:[c,n]:c3[c,n]2</td><tr><td>1128</td><td><a href="1128.html">aryl iodide</a></td><td>483</td><td>0.48%</td>
+<td>I-c:*</td><tr><td>901</td><td><a href="901.html">Oxime</a></td><td>475</td><td>0.47%</td>
+<td>[#6]C(=!@N[$(OC),$([OH])])[#6]</td><tr><td>938</td><td><a href="938.html">Azo</a></td><td>463</td><td>0.46%</td>
+<td>N=N</td><tr><td>118</td><td><a href="118.html">oxime</a></td><td>443</td><td>0.44%</td>
+<td>[C,c]=N[OH]</td><tr><td>88</td><td><a href="88.html">diazo group</a></td><td>437</td><td>0.44%</td>
+<td>[N!R]=[N!R]</td><tr><td>328</td><td><a href="328.html">azo_A(324)</a></td><td>437</td><td>0.44%</td>
+<td>[#7;!R]=[#7]</td><tr><td>55</td><td><a href="55.html">> 2 ester groups</a></td><td>431</td><td>0.43%</td>
+<td>C(=O)O[C,H1].C(=O)O[C,H1].C(=O)O[C,H1]</td><tr><td>1101</td><td><a href="1101.html">carbamate, CBZ Protected</a></td><td>429</td><td>0.43%</td>
+<td>NC(O[CH2]c1ccccc1)=O</td><tr><td>146</td><td><a href="146.html">Three-membered heterocycle</a></td><td>417</td><td>0.42%</td>
+<td>*1[O,S,N]*1</td><tr><td>36</td><td><a href="36.html">I6 Epoxides, Thioepoxides, Aziridines</a></td><td>413</td><td>0.41%</td>
+<td>C1[O,S,N]C1</td><tr><td>1034</td><td><a href="1034.html">Filter40_epoxide_aziridine</a></td><td>413</td><td>0.41%</td>
+<td>C1C[N,S,O]1</td><tr><td>128</td><td><a href="128.html">Polycyclic aromatic hydrocarbon</a></td><td>409</td><td>0.41%</td>
+<td>a31a(a2a(aa1)aaaa2)aaaa3</td><tr><td>1134</td><td><a href="1134.html">too many cyano Groups (>1)</a></td><td>405</td><td>0.41%</td>
+<td>C#N.C#N</td><tr><td>899</td><td><a href="899.html">sulphates</a></td><td>405</td><td>0.41%</td>
+<td>[#6]S(=O)(=O)O</td><tr><td>1121</td><td><a href="1121.html">acyclic C=C-O</a></td><td>400</td><td>0.40%</td>
+<td>C=C-!@O-*</td><tr><td>995</td><td><a href="995.html">Filter1_2_halo_ether</a></td><td>398</td><td>0.40%</td>
+<td>[Cl,Br,I][CX4][CX4][$([O,S,N]*),Cl,Br,I]</td><tr><td>93</td><td><a href="93.html">heavy metal</a></td><td>395</td><td>0.40%</td>
+<td>[Hg,Fe,As,Sb,Zn,Se,se,Te,B,Si]</td><tr><td>1088</td><td><a href="1088.html">Si,B,Se atoms</a></td><td>395</td><td>0.40%</td>
+<td>[Si,B,Se]</td><tr><td>262</td><td><a href="262.html">oxime</a></td><td>389</td><td>0.39%</td>
+<td>[$(C=N[O;D1]);!$(C=[N+])][#6][#6]</td><tr><td>330</td><td><a href="330.html">mannich_A(296)</a></td><td>387</td><td>0.39%</td>
+<td>[#7]-[C;X4]-c1ccccc1-[O;H1]</td><tr><td>109</td><td><a href="109.html">Michael acceptor</a></td><td>385</td><td>0.39%</td>
+<td>C=C(C=O)C=O</td><tr><td>77</td><td><a href="77.html">conjugated nitrile group</a></td><td>382</td><td>0.38%</td>
+<td>C=[C!r]C#N</td><tr><td>1086</td><td><a href="1086.html">2-chloropyridine</a></td><td>381</td><td>0.38%</td>
+<td>n1c(cccc1)Cl</td><tr><td>94</td><td><a href="94.html">het-C-het not in ring</a></td><td>378</td><td>0.38%</td>
+<td>[NX3R0,NX4R0,OR0,SX2R0][CX4][NX3R0,NX4R0,OR0,SX2R0]</td><tr><td>17</td><td><a href="17.html">R18 Quaternary C, Cl, I, P or S</a></td><td>376</td><td>0.38%</td>
+<td>[C+,Cl+,I+,P+,S+]</td><tr><td>955</td><td><a href="955.html">Dye 29</a></td><td>374</td><td>0.37%</td>
+<td>O=[N+](-[O-])-caac-[$(N(C)C),$([NH]C),$([NH2])]</td><tr><td>46</td><td><a href="46.html">I16 Betalactams</a></td><td>374</td><td>0.37%</td>
+<td>N1CCC1=O</td><tr><td>201</td><td><a href="201.html">betalactam</a></td><td>374</td><td>0.37%</td>
+<td>C1(=O)~[#6]~[#6]N1</td><tr><td>74</td><td><a href="74.html">charged oxygen or sulfur atoms</a></td><td>371</td><td>0.37%</td>
+<td>[O+,o+,S+,s+]</td><tr><td>892</td><td><a href="892.html">Tri_Pentavalent_S</a></td><td>361</td><td>0.36%</td>
+<td>[#16v3,#16v5]</td><tr><td>1091</td><td><a href="1091.html">acyclic imines</a></td><td>360</td><td>0.36%</td>
+<td>C-!@[NX2]=[C!R,#1]-C</td><tr><td>131</td><td><a href="131.html">quaternary nitrogen</a></td><td>357</td><td>0.36%</td>
+<td>[s,S,c,C,n,N,o,O]~[n+,N+](~[s,S,c,C,n,N,o,O])(~[s,S,c,C,n,N,o,O])~[s,S,c,C,n,N,o,O]</td><tr><td>872</td><td><a href="872.html">Polyene</a></td><td>353</td><td>0.35%</td>
+<td>C=!@CC=!@C</td><tr><td>924</td><td><a href="924.html">poly_sub_atomatic</a></td><td>349</td><td>0.35%</td>
+<td>*!@c1c(!@*)c(!@*)c(!@*)c(!@*)c1</td><tr><td>929</td><td><a href="929.html">Nitro_more_than_one</a></td><td>345</td><td>0.34%</td>
+<td>[N+](=O)[O-].[N+](=O)[O-]</td><tr><td>891</td><td><a href="891.html">Three_Membered_Heterocycle</a></td><td>345</td><td>0.34%</td>
+<td>*1[O,S]*1</td><tr><td>968</td><td><a href="968.html">4-halopyridine</a></td><td>340</td><td>0.34%</td>
+<td>[F,Cl,Br][c]1:[c,n]:[c,n]:[n]:[c,n]:[c,n]1</td><tr><td>144</td><td><a href="144.html">thioester</a></td><td>340</td><td>0.34%</td>
+<td>SC=O</td><tr><td>1127</td><td><a href="1127.html">epoxides</a></td><td>340</td><td>0.34%</td>
+<td>O~1C~*1</td><tr><td>1115</td><td><a href="1115.html">N-C-Hal or cyano methyl</a></td><td>336</td><td>0.34%</td>
+<td>N-C-[F,Cl,Br,I,$(C#N)]</td><tr><td>909</td><td><a href="909.html">triple_bond</a></td><td>333</td><td>0.33%</td>
+<td>[#6]C#[CH]</td><tr><td>1036</td><td><a href="1036.html">Filter42_12_dicarbonyl_tautomer</a></td><td>330</td><td>0.33%</td>
+<td>[*!$(C[OH])]=C([OH])C(=O)*</td><tr><td>839</td><td><a href="839.html">Dithiocarbamate</a></td><td>326</td><td>0.33%</td>
+<td>NC(=S)S</td><tr><td>954</td><td><a href="954.html">nitro aromatic 2+</a></td><td>321</td><td>0.32%</td>
+<td>a-[N+](=O)[O-].a-[N+](=O)[O-]</td><tr><td>1016</td><td><a href="1016.html">Filter22_sulfonium_salt</a></td><td>315</td><td>0.32%</td>
+<td>*[SX3](*)*</td><tr><td>246</td><td><a href="246.html">keto_def_heterocycle</a></td><td>310</td><td>0.31%</td>
+<td>[$(c([C;!R;!$(C-[N,O,S]);!$(C-[H])](=O))1naaaa1),$(c([C;!R;!$(C-[N,O,S]);!$(C-[H])](=O))1naa[n,s,o]1)]</td><tr><td>805</td><td><a href="805.html">Acridine</a></td><td>310</td><td>0.31%</td>
+<td>c1c2cc4ccccc4nc2ccc1</td><tr><td>235</td><td><a href="235.html">halo_acrylate</a></td><td>309</td><td>0.31%</td>
+<td>[$([C;H2]),$([C&H1;$(C-F)]),$([C&H1;$(C-Cl)]),$([C&H1;$(C-Br)]),$([C&H1;$(CI)]),$(C(F)F),$(C(Cl)Cl),$(C(Br)Br),$(C(I)I),$(C(F)Cl),$(C(F)Br),$(C(F)I),$(C(Cl)Br),$(C(Br)I)](=[$([C&H1;$(C(-C(=O)))]),$(C(F)(C(=O))),$(C(Cl)(C(=O))),$(C(Br)(C(=O))),$(C(I)(C(=O))),$(C(C)(C(=O))),$(C(c)(C(=O)))])</td><tr><td>165</td><td><a href="165.html">acrylate</a></td><td>308</td><td>0.31%</td>
+<td>[CH2]=[C;!$(C-N);!$(C-O)]C(=O)</td><tr><td>91</td><td><a href="91.html">halogenated ring</a></td><td>307</td><td>0.31%</td>
+<td>c1cc([Cl,Br,I,F])cc([Cl,Br,I,F])c1[Cl,Br,I,F]</td><tr><td>973</td><td><a href="973.html">vinyl michael acceptor2</a></td><td>306</td><td>0.31%</td>
+<td>[CH2]=C-C(=O)[#6,#7,#8]</td><tr><td>97</td><td><a href="97.html">hydroquinone</a></td><td>304</td><td>0.30%</td>
+<td>[OH]c1ccc([OH,NH2,NH])cc1</td><tr><td>58</td><td><a href="58.html">acyclic C=C-O</a></td><td>304</td><td>0.30%</td>
+<td>C=[C!r]O</td><tr><td>1048</td><td><a href="1048.html">Filter57_polyphenol1</a></td><td>300</td><td>0.30%</td>
+<td>Oc1cc(O)cc(O)c1</td><tr><td>321</td><td><a href="321.html">trisub_bis_act_olefin</a></td><td>294</td><td>0.29%</td>
+<td>[CH;!R;!$(C-N)]=C([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])</td><tr><td>989</td><td><a href="989.html">(poly(azo(phenanthrene))</a></td><td>292</td><td>0.29%</td>
+<td>c12:[c,n]:[c,n]:[c,n]:[c,n]:c1:[c,n]:[c,n]:c3:[c,n]:[c,n]:[c,n]:[c,n]:c23</td><tr><td>1067</td><td><a href="1067.html">Filter78_bicyclic_Imide</a></td><td>290</td><td>0.29%</td>
+<td>*~@C1C(=O)NC(=O)C(~@*)1</td><tr><td>1073</td><td><a href="1073.html">Filter84_nitrogen_mustard</a></td><td>280</td><td>0.28%</td>
+<td>[N,P,Se,S][C!H0]C[Br,Cl,I]</td><tr><td>1136</td><td><a href="1136.html">amino acid</a></td><td>278</td><td>0.28%</td>
+<td>[NH2][CX4]C(=O)O</td><tr><td>1097</td><td><a href="1097.html">mustards</a></td><td>273</td><td>0.27%</td>
+<td>[N,S,O][CH2][CH2]-[F,Cl,Br,I]</td><tr><td>1049</td><td><a href="1049.html">Filter58_polyphenol2</a></td><td>269</td><td>0.27%</td>
+<td>Oc1c(O)cc(O)cc1</td><tr><td>870</td><td><a href="870.html">phosphonate_esters</a></td><td>269</td><td>0.27%</td>
+<td>[#6]P(=O)(~O)O[#6]</td><tr><td>254</td><td><a href="254.html">non_ring_CH2O_acetal</a></td><td>268</td><td>0.27%</td>
+<td>[O,N,S;!$(S~O)]!@[CH2]!@[O,S,N;!$(S~O)]</td><tr><td>1054</td><td><a href="1054.html">Filter64_halo_ketone_sulfone</a></td><td>261</td><td>0.26%</td>
+<td>[#6][C,S](=[O,S])C[F,Cl,Br,I]</td><tr><td>1064</td><td><a href="1064.html">Filter75_alkyl_Br_I</a></td><td>260</td><td>0.26%</td>
+<td>[C!H0][Br,I]</td><tr><td>129</td><td><a href="129.html">polyene</a></td><td>256</td><td>0.26%</td>
+<td>[CR0]=[CR0][CR0]=[CR0]</td><tr><td>111</td><td><a href="111.html">N oxide</a></td><td>255</td><td>0.26%</td>
+<td>[NX2,nX3][OX1]</td><tr><td>963</td><td><a href="963.html">Dye 2</a></td><td>249</td><td>0.25%</td>
+<td>OCccCO</td><tr><td>944</td><td><a href="944.html">imine 1</a></td><td>244</td><td>0.24%</td>
+<td>[#6,#8,#16]-C(=[NH1])[#6,#8,#16]</td><tr><td>136</td><td><a href="136.html">Sulfonic acid</a></td><td>237</td><td>0.24%</td>
+<td>[C,c]S(=O)(=O)O[C,c]</td><tr><td>293</td><td><a href="293.html">secondary_halide_sulfate</a></td><td>236</td><td>0.24%</td>
+<td>[CH;!$(C=C)][Cl,Br,I,$(O(S(=O)(=O)[!$(N);!$([O&D1])]))]</td><tr><td>881</td><td><a href="881.html">reactive_carbonyls</a></td><td>230</td><td>0.23%</td>
+<td>[C;!r](=[O,S])[S;!r]</td><tr><td>1053</td><td><a href="1053.html">Filter63_polyaromatic</a></td><td>227</td><td>0.23%</td>
+<td>a1aaaa2ccc3ccccc3c12</td><tr><td>137</td><td><a href="137.html">Sulfonic acid</a></td><td>223</td><td>0.22%</td>
+<td>S(=O)(=O)[O-,OH]</td><tr><td>934</td><td><a href="934.html">Sulfonic acid</a></td><td>216</td><td>0.22%</td>
+<td>[OH]-S(=O)(=O)-*</td><tr><td>332</td><td><a href="332.html">anil_di_alk_C(246)</a></td><td>213</td><td>0.21%</td>
+<td>c:1:c:c(:c:c:c:1-[#8]-[#6;X4])-[#7](-[#6;X4])-[$([#1]),$([#6;X4])]</td><tr><td>902</td><td><a href="902.html">hydrazone</a></td><td>209</td><td>0.21%</td>
+<td>[#6]C(=!@NNa)[#6]</td><tr><td>278</td><td><a href="278.html">phosphorous_nitrogen_bond</a></td><td>204</td><td>0.20%</td>
+<td>[#15]~[N,n]</td><tr><td>324</td><td><a href="324.html">hzone_phenol_A(479)</a></td><td>203</td><td>0.20%</td>
+<td>c:1:c:c(:c(:c:c:1)-[#6]=[#7]-[#7])-[O;H1]</td><tr><td>183</td><td><a href="183.html">alpha_halo_carbonyl</a></td><td>202</td><td>0.20%</td>
+<td>C(=O)([CH,CH2][Cl,Br,I,$(O(S(=O)(=O)))])</td><tr><td>993</td><td><a href="993.html">aromatic Sulfonic ester</a></td><td>201</td><td>0.20%</td>
+<td>[#6,#7]-S(=O)(=O)Oc</td><tr><td>998</td><td><a href="998.html">Filter4_alpha_halo_carbonyl</a></td><td>198</td><td>0.20%</td>
+<td>[Br,Cl,I][C!H0]C=[O,S]</td><tr><td>187</td><td><a href="187.html">aryl_phosphonate</a></td><td>196</td><td>0.20%</td>
+<td>P(=O)-[O;!R]-a</td><tr><td>6</td><td><a href="6.html">R7 Peroxides</a></td><td>194</td><td>0.19%</td>
+<td>OO</td><tr><td>272</td><td><a href="272.html">peroxide</a></td><td>194</td><td>0.19%</td>
+<td>[#8]~[#8]</td><tr><td>1124</td><td><a href="1124.html">peroxide</a></td><td>194</td><td>0.19%</td>
+<td>O~O</td><tr><td>292</td><td><a href="292.html">rhodanine</a></td><td>193</td><td>0.19%</td>
+<td>C(=C)1SC(=S)NC(=O)1</td><tr><td>333</td><td><a href="333.html">ene_rhod_A(235)</a></td><td>193</td><td>0.19%</td>
+<td>[#7]-1-[#6](=[#16])-[#16]-[#6](=[#6])-[#6]-1=[#8]</td><tr><td>92</td><td><a href="92.html">halogenated ring</a></td><td>191</td><td>0.19%</td>
+<td>c1ccc([Cl,Br,I,F])c([Cl,Br,I,F])c1[Cl,Br,I,F]</td><tr><td>935</td><td><a href="935.html">benzhydrol</a></td><td>190</td><td>0.19%</td>
+<td>[OH1]-C(-c1ccccc1)c2ccccc2</td><tr><td>837</td><td><a href="837.html">Dinitrobenzene_3</a></td><td>187</td><td>0.19%</td>
+<td>c1c([N+](=O)[O-])cc([N+](=O)[O-])cc1</td><tr><td>1081</td><td><a href="1081.html">Filter93_acetyl_urea</a></td><td>187</td><td>0.19%</td>
+<td>C(=O)!@N!@C(=O)[#7]</td><tr><td>967</td><td><a href="967.html">Beta halo carbonyl</a></td><td>186</td><td>0.19%</td>
+<td>O=CCC[F,Cl,Br,I]</td><tr><td>96</td><td><a href="96.html">hydrazine</a></td><td>182</td><td>0.18%</td>
+<td>N[NH2]</td><tr><td>885</td><td><a href="885.html">Sulfonate_Ester</a></td><td>180</td><td>0.18%</td>
+<td>O=[SX4](=O)OC</td><tr><td>354</td><td><a href="354.html">amino_acridine_A(46)</a></td><td>180</td><td>0.18%</td>
+<td>c:1:c:2:c(:c:c:c:1):n:c:3:c(:c:2-[#7]):c:c:c:c:3</td><tr><td>132</td><td><a href="132.html">quaternary nitrogen</a></td><td>178</td><td>0.18%</td>
+<td>[*]=[N+]=[*]</td><tr><td>255</td><td><a href="255.html">non_ring_acetal</a></td><td>177</td><td>0.18%</td>
+<td>[O,N,S;!$(S~O)]!@[C;H1;X4]!@[O,N,S;!$(S~O)]</td><tr><td>999</td><td><a href="999.html">Filter5_azo</a></td><td>176</td><td>0.18%</td>
+<td>[!#7,#1]~[NX2R0]=[NX2R0]~[!#7,#1]</td><tr><td>224</td><td><a href="224.html">gte_2_free_phos</a></td><td>170</td><td>0.17%</td>
+<td>P([O;D1])=O.P([O;D1])=O</td><tr><td>34</td><td><a href="34.html">I4 Disulphides</a></td><td>168</td><td>0.17%</td>
+<td>SS</td><tr><td>1047</td><td><a href="1047.html">Filter56_SS_bond</a></td><td>168</td><td>0.17%</td>
+<td>S-S</td><tr><td>228</td><td><a href="228.html">gte_4_basic_N</a></td><td>167</td><td>0.17%</td>
+<td>[N;!$(N(=[N,O,S,C]));!$(N(S(=O)(=O)));!$(N(C(F)(F)(F)));!$(N(C#N));!$(N(C(=O)));!$(N(C(=S)));!$(N(C(=N)));!$(N(#C));!$(Nc)].[N;!$(N(=[N,O,S,C]));!$(N(S(=O)(=O)));!$(N(C(F)(F)(F)));!$(N(C#N));!$(N(C(=O)));!$(N(C(=S)));!$(N(C(=N)));!$(N(#C));!$(Nc)].[N;!$(N(=[N,O,S,C]));!$(N(S(=O)(=O)));!$(N(C(F)(F)(F)));!$(N(C#N));!$(N(C(=O)));!$(N(C(=S)));!$(N(C(=N)));!$(N(#C));!$(Nc)].[N;!$(N(=[N,O,S,C]));!$(N(S(=O)(=O)));!$(N(C(F)(F)(F)));!$(N(C#N));!$(N(C(=O)));!$(N(C(=S)));!$(N(C(=N)));!$(N(#C));!$(N-c)]</td><tr><td>1076</td><td><a href="1076.html">Filter87_crowns</a></td><td>167</td><td>0.17%</td>
+<td>[N,O,S]-@[#6!$(*(~@*)(~@*)~@*)]@[#6!$(*(~@*)(~@*)~@*)]-@[N,O,S]-@[#6!$(*(~@*)(~@*)~@*)]@[#6!$(*(~@*)(~@*)~@*)]-@[O,N]-@[#6!$(*(~@*)(~@*)~@*)]@[#6!$(*(~@*)(~@*)~@*)]-@[N,O,S]-@C</td><tr><td>15</td><td><a href="15.html">R16 beta carbonyl quaternary Nitrogen</a></td><td>164</td><td>0.16%</td>
+<td>C(=O)C[N+,n+]</td><tr><td>822</td><td><a href="822.html">beta-carbonyl_quaternary_nitrogen</a></td><td>164</td><td>0.16%</td>
+<td>C(=O)C[N+,n+,NX4,nX4]</td><tr><td>1080</td><td><a href="1080.html">Filter92_trityl</a></td><td>163</td><td>0.16%</td>
+<td>*(c1ccccc1)(c1ccccc1)(c1ccccc1)</td><tr><td>991</td><td><a href="991.html">Dye 4</a></td><td>160</td><td>0.16%</td>
+<td>c12ccccc1C(=O)c3ccccc3C2=O</td><tr><td>337</td><td><a href="337.html">anil_di_alk_D(198)</a></td><td>159</td><td>0.16%</td>
+<td>c:1:c:c(:c:c:c:1-[#7](-[#6;X4])-[#6;X4])-[#6;X4]-[$([#8]-[#1]),$([#6]=[#6]-[#1]),$([#7]-[#6;X4])]</td><tr><td>66</td><td><a href="66.html">Azido group</a></td><td>157</td><td>0.16%</td>
+<td>N=[N+]=[N-]</td><tr><td>189</td><td><a href="189.html">azide</a></td><td>157</td><td>0.16%</td>
+<td>[$(N#[N+]-[N-]),$([N-]=[N+]=N)]</td><tr><td>937</td><td><a href="937.html">Azide</a></td><td>157</td><td>0.16%</td>
+<td>N=N=N</td><tr><td>914</td><td><a href="914.html">formate_formide</a></td><td>157</td><td>0.16%</td>
+<td>O=[CH][O,N][#6]</td><tr><td>1074</td><td><a href="1074.html">Filter85_keto_acrylonitrile</a></td><td>154</td><td>0.15%</td>
+<td>*C(=O)C(=!@[C!H0])C#N</td><tr><td>329</td><td><a href="329.html">imine_one_A(321)</a></td><td>153</td><td>0.15%</td>
+<td>[#6]-[#6](=[!#6&!#1;!R])-[#6](=[!#6&!#1;!R])-[$([#6]),$([#16](=[#8])=[#8])]</td><tr><td>323</td><td><a href="323.html">ene_six_het_A(483)</a></td><td>153</td><td>0.15%</td>
+<td>[#6]-1(-[#6](~[!#6&!#1]~[#6]-[!#6&!#1]-[#6]-1=[!#6&!#1])~[!#6&!#1])=[#6;!R]</td><tr><td>978</td><td><a href="978.html">nitroalkane</a></td><td>153</td><td>0.15%</td>
+<td>C[N+](=O)[O-]</td><tr><td>1077</td><td><a href="1077.html">Filter88_ene_sulfone</a></td><td>152</td><td>0.15%</td>
+<td>[C!H0]=CS(=O)(=O)*</td><tr><td>1095</td><td><a href="1095.html">acyclic N-C-N</a></td><td>152</td><td>0.15%</td>
+<td>N-!@[CX4]-!@N</td><tr><td>838</td><td><a href="838.html">disulfides</a></td><td>149</td><td>0.15%</td>
+<td>[SX2][SX2]</td><tr><td>212</td><td><a href="212.html">cyanohydrin</a></td><td>149</td><td>0.15%</td>
+<td>[C;X4](-[OH,NH1,NH2,SH])(-C#N)</td><tr><td>331</td><td><a href="331.html">anil_di_alk_B(251)</a></td><td>147</td><td>0.15%</td>
+<td>c:1:c:c(:c:c:c:1-[#7](-[#6;X4])-[#6;X4])-[#6]=[#6]</td><tr><td>1093</td><td><a href="1093.html">ugly P compounds</a></td><td>145</td><td>0.14%</td>
+<td>P(=[O,S])[C,N]([C,N])[C,N]</td><tr><td>80</td><td><a href="80.html">cyanate/aminonitrile/thiocyanate</a></td><td>144</td><td>0.14%</td>
+<td>[N,O,S]C#N</td><tr><td>223</td><td><a href="223.html">gte_2_N_quats</a></td><td>142</td><td>0.14%</td>
+<td>[N,n;H0;+;!$(N~O);!$(n~O)].[N,n;H0;+;!$(N~O);!$(n~O)]</td><tr><td>205</td><td><a href="205.html">boron_warhead</a></td><td>140</td><td>0.14%</td>
+<td>[C,c]~[#5]</td><tr><td>912</td><td><a href="912.html">glycol</a></td><td>139</td><td>0.14%</td>
+<td>[#6][O;R0][$(C([#6])[#6]),$([CH][#6]),$([CH2])][O;R0][#6]</td><tr><td>1070</td><td><a href="1070.html">Filter81_Thiocarbamate</a></td><td>135</td><td>0.14%</td>
+<td>S!@C(=!@[O,S])!@[#7]</td><tr><td>814</td><td><a href="814.html">Aminonitrile</a></td><td>132</td><td>0.13%</td>
+<td>NC#N</td><tr><td>1066</td><td><a href="1066.html">Filter77_alkyl_NO2</a></td><td>131</td><td>0.13%</td>
+<td>[*!#7]~[#6]-,=CN(~O)(~O)</td><tr><td>75</td><td><a href="75.html">chinone</a></td><td>130</td><td>0.13%</td>
+<td>C1(=[O,N])C=CC(=[O,N])C=C1</td><tr><td>42</td><td><a href="42.html">I12 Thioesters</a></td><td>129</td><td>0.13%</td>
+<td>C[O,S;R0][C;R0](=S)</td><tr><td>966</td><td><a href="966.html">Perhalo_ketone</a></td><td>129</td><td>0.13%</td>
+<td>O=CC(-[F,Cl,Br,I])([F,Cl,Br,I])-[F,Cl,Br,I]</td><tr><td>242</td><td><a href="242.html">hydrazine</a></td><td>127</td><td>0.13%</td>
+<td>[N;X3;!$(N-S(=O)(=O));!$(N-C(F)(F)(F));!$(N-C#N);!$(N-C(=O));!$(N-C(=S));!$(N-C(=N))]-[N;X3;!$(N-S(=O)(=O));!$(N-C(F)(F)(F));!$(N-C#N);!$(N-C(=O));!$(N-C(=S));!$(N-C(=N))]</td><tr><td>936</td><td><a href="936.html">dihydroxybenzene</a></td><td>122</td><td>0.12%</td>
+<td>[OH1]c1ccc([OH1])cc1</td><tr><td>1000</td><td><a href="1000.html">Filter6_benzyl_halide</a></td><td>119</td><td>0.12%</td>
+<td>[Br,Cl,I][CX4]c</td><tr><td>231</td><td><a href="231.html">gte_7_aliphatic_OH</a></td><td>118</td><td>0.12%</td>
+<td>C[O;D1].C[O;D1].C[O;D1].C[O;D1].C[O;D1].C[O;D1].C[O;D1]</td><tr><td>1046</td><td><a href="1046.html">Filter53_para_quinones</a></td><td>117</td><td>0.12%</td>
+<td>O=C1C=CC(=O)C=C1</td><tr><td>882</td><td><a href="882.html">reactive_carbonyls</a></td><td>117</td><td>0.12%</td>
+<td>[C;!r](=[O,S])[CD2;!r][F,Br,Cl]</td><tr><td>852</td><td><a href="852.html">Imidazolium</a></td><td>116</td><td>0.12%</td>
+<td>c1[n+]([#6])ccn1([#6])</td><tr><td>940</td><td><a href="940.html">hemiacetal</a></td><td>113</td><td>0.11%</td>
+<td>[#6]-O[CH1](-[#6])[OH1]</td><tr><td>1012</td><td><a href="1012.html">Filter18_oxime_ester</a></td><td>113</td><td>0.11%</td>
+<td>[!#7,#1]C=NO[C,S,P](=O)*</td><tr><td>876</td><td><a href="876.html">Polynuclear_Aromatic_2</a></td><td>112</td><td>0.11%</td>
+<td>c1cccc(c(cccc2)c2cc3)c13</td><tr><td>823</td><td><a href="823.html">Beta-Fluoro-ethyl-ON</a></td><td>111</td><td>0.11%</td>
+<td>[C;H2$(CF),H1$(C(F)F)]!@[CH2][N,O]</td><tr><td>192</td><td><a href="192.html">azo_aryl</a></td><td>107</td><td>0.11%</td>
+<td>c[N;!R;!+]=[N;!R;!+]-c</td><tr><td>834</td><td><a href="834.html">Diene</a></td><td>106</td><td>0.11%</td>
+<td>C!@=[CH1]-C!@=[CH1]-[CX3](=O)</td><tr><td>897</td><td><a href="897.html">Vinyl_Halide</a></td><td>104</td><td>0.10%</td>
+<td>[Cl,Br,I]C=[!O!R]</td><tr><td>112</td><td><a href="112.html">N-acyl-2-amino-5-mercapto-1,3,4-thiadiazole</a></td><td>104</td><td>0.10%</td>
+<td>s1c(S)nnc1NC=O</td><tr><td>209</td><td><a href="209.html">contains_metal</a></td><td>103</td><td>0.10%</td>
+<td>[$([Ru]),$([Rh]),$([Se]),$([se]),$([Pd]),$([Sc]),$([Bi]),$([Sb]),$([Ag]),$([Ti]),$([Al]),$([Cd]),$([V]),$([In]),$([Cr]),$([Sn]),$([Mn]),$([La]),$([Fe]),$([Er]),$([Tm]),$([Yb]),$([Lu]),$([Hf]),$([Ta]),$([W]),$([Re]),$([Co]),$([Os]),$([Ni]),$([Ir]),$([Cu]),$([Zn]),$([Ga]),$([Ge]),$([As]),$([as]),$([Y]),$([Zr]),$([Nb]),$([Ce]),$([Pr]),$([Nd]),$([Sm]),$([Eu]),$([Gd]),$([Tb]),$([Dy]),$([Ho]),$([Pt]),$([Au]),$([Hg]),$([Tl]),$([Pb]),$([Ac]),$([Th]),$([Pa]),$([Mo]),$([U]),$([Tc]),$([Te]),$([Po]),$([At])]</td><tr><td>926</td><td><a href="926.html">Undesirable_Elements_Salts</a></td><td>103</td><td>0.10%</td>
+<td>[Ac,Ag,Am,Ar,As,At,Au,Ba,Be,Bi,Bk,Cd,Ce,Cf,Cm,Cr,Cs,Dy,Er,Eu,Fr,Ga,Gd,Ge,He,Hf,Ho,In,Ir,Kr,La,Lu,Mo,Nb,Nd,Ne,Ni,Np,Os,Pa,Pb,Pd,Pm,Po,Pr,Pt,Pu,Ra,Rb,Re,Rh,Rn,Ru,Sb,Sc,Se,Sm,Sr,Ta,Tb,Tc,Te,Th,Ti,Tl,Tm,U,V,W,Xe,Y,Yb,Zr]</td><tr><td>119</td><td><a href="119.html">oxime</a></td><td>102</td><td>0.10%</td>
+<td>[C,c]=NOC=O</td><tr><td>59</td><td><a href="59.html">acyl hydrazine</a></td><td>102</td><td>0.10%</td>
+<td>C(=O)N[NH2]</td><tr><td>862</td><td><a href="862.html">o-tertbutylphenol</a></td><td>99</td><td>0.10%</td>
+<td>c1c([OH1])c(C(C)(C)C)ccc1</td><tr><td>241</td><td><a href="241.html">hetero_silyl</a></td><td>96</td><td>0.10%</td>
+<td>[Si]~[!#6]</td><tr><td>121</td><td><a href="121.html">perfluorinated chain</a></td><td>95</td><td>0.10%</td>
+<td>[CX4](F)(F)[CX4](F)F</td><tr><td>847</td><td><a href="847.html">Fluorinated_Carbon_2</a></td><td>95</td><td>0.10%</td>
+<td>C(C(F)F)(F)F</td><tr><td>162</td><td><a href="162.html">CH2_S#O_3_ring</a></td><td>95</td><td>0.10%</td>
+<td>[CH2]1[O,S]C1</td><tr><td>50</td><td><a href="50.html">N4 Cytochalasin derivatives</a></td><td>94</td><td>0.09%</td>
+<td>O=C1NCC2CCCCC21</td><tr><td>1023</td><td><a href="1023.html">Filter29_thioester</a></td><td>94</td><td>0.09%</td>
+<td>CC(=[OX1,SX1,NH])[SX2][*,#1]</td><tr><td>1031</td><td><a href="1031.html">Filter37_silicate</a></td><td>94</td><td>0.09%</td>
+<td>[Si]~O</td><tr><td>859</td><td><a href="859.html">N-Oxide_aliphatic</a></td><td>93</td><td>0.09%</td>
+<td>[N+!$(N=O)][O-X1]</td><tr><td>1075</td><td><a href="1075.html">Filter86_cyanamide</a></td><td>92</td><td>0.09%</td>
+<td>N#C[#7!$(N(C#N)=C(N)NC)]</td><tr><td>226</td><td><a href="226.html">gte_3_COOH</a></td><td>92</td><td>0.09%</td>
+<td>C(=O)[O;D1].C(=O)[O;D1].C(=O)[O;D1]</td><tr><td>41</td><td><a href="41.html">I11 Benzylic quaternary Nitrogen</a></td><td>91</td><td>0.09%</td>
+<td>cC[N+]</td><tr><td>821</td><td><a href="821.html">benzylic_quaternary_nitrogen</a></td><td>91</td><td>0.09%</td>
+<td>cC[N+,NX4]</td><tr><td>217</td><td><a href="217.html">disulfide_acyclic</a></td><td>91</td><td>0.09%</td>
+<td>[S;!R;X2]-[S;!R;X2]</td><tr><td>1059</td><td><a href="1059.html">Filter69_thio_carbonate</a></td><td>90</td><td>0.09%</td>
+<td>[O,S]C(=[O,S])[O,S]</td><tr><td>1125</td><td><a href="1125.html">thioester</a></td><td>90</td><td>0.09%</td>
+<td>C-C(=O)[SD2]</td><tr><td>370</td><td><a href="370.html">pyrrole_B(29)</a></td><td>89</td><td>0.09%</td>
+<td>[#6;X4]c1ccc([#6]:[#6])n1c2ccccc2</td><tr><td>388</td><td><a href="388.html">ene_one_hal(17)</a></td><td>87</td><td>0.09%</td>
+<td>[#6]-[#6]=[#6](-[F,Cl,Br,I])-[#6](=[#8])-[#6]</td><tr><td>338</td><td><a href="338.html">imine_one_isatin(189)</a></td><td>87</td><td>0.09%</td>
+<td>[#8]=[#6]-2-[#6](=!@[#7]-[#7])-c:1:c:c:c:c:c:1-[#7]-2</td><tr><td>220</td><td><a href="220.html">flavanoid</a></td><td>87</td><td>0.09%</td>
+<td>O=C2CC(a3aaaaa3)Oa1aaaaa12</td><tr><td>842</td><td><a href="842.html">Dithiomethylene_acetal</a></td><td>87</td><td>0.09%</td>
+<td>S[C;!$(C=*)]S</td><tr><td>4</td><td><a href="4.html">R5 Sulphonates</a></td><td>85</td><td>0.09%</td>
+<td>COS(=O)(=O)[C,c]</td><tr><td>1058</td><td><a href="1058.html">Filter68_anthracene_acridine</a></td><td>84</td><td>0.08%</td>
+<td>a1aaac2cc3ccccc3cc12</td><tr><td>865</td><td><a href="865.html">PCP</a></td><td>83</td><td>0.08%</td>
+<td>PCP</td><tr><td>51</td><td><a href="51.html">N5 Cycloheximide derivatives</a></td><td>82</td><td>0.08%</td>
+<td>O=C1CCCC(N1)=O</td><tr><td>349</td><td><a href="349.html">ene_one_ene_A(57)</a></td><td>82</td><td>0.08%</td>
+<td>[#6]=!@[#6](-[!#1])-@[#6](=!@[!#6&!#1])-@[#6](=!@[#6])-[!#1]</td><tr><td>306</td><td><a href="306.html">thioester</a></td><td>82</td><td>0.08%</td>
+<td>[S;!R;H0]C(=[S,O;!R])([!O;!S;!N])</td><tr><td>1090</td><td><a href="1090.html">poly ethers</a></td><td>80</td><td>0.08%</td>
+<td>O[CH2][CH2]O-!@[CH2][CH2]O</td><tr><td>1126</td><td><a href="1126.html">aziridine-like N in 3-membered ring</a></td><td>80</td><td>0.08%</td>
+<td>N~1~*~*1</td><tr><td>191</td><td><a href="191.html">azo_amino</a></td><td>80</td><td>0.08%</td>
+<td>[N]=[N;!R]-[N]</td><tr><td>190</td><td><a href="190.html">aziridine_diazirine</a></td><td>79</td><td>0.08%</td>
+<td>[C,N]1~[C,N]~N~1</td><tr><td>45</td><td><a href="45.html">I15 Di and Triphosphates</a></td><td>78</td><td>0.08%</td>
+<td>P(=O)([OH])OP(=O)[OH]</td><tr><td>1069</td><td><a href="1069.html">Filter80_Thioepoxide_aziridone</a></td><td>77</td><td>0.08%</td>
+<td>[N,S]1[C,N,S][C,N,S]1</td><tr><td>117</td><td><a href="117.html">N-nitroso</a></td><td>76</td><td>0.08%</td>
+<td>[#7]-N=O</td><tr><td>849</td><td><a href="849.html">geminal_dinitriles</a></td><td>72</td><td>0.07%</td>
+<td>N#CCC#N</td><tr><td>1060</td><td><a href="1060.html">Filter70_AlkylCN2</a></td><td>72</td><td>0.07%</td>
+<td>*(C#N)C#N</td><tr><td>115</td><td><a href="115.html">N-hydroxyl pyridine</a></td><td>72</td><td>0.07%</td>
+<td>n[OH]</td><tr><td>37</td><td><a href="37.html">I7 2,4,5 trihydroxyphenyl</a></td><td>72</td><td>0.07%</td>
+<td>c([OH])c([OH])c([OH])</td><tr><td>147</td><td><a href="147.html">triphenyl methylsilyl</a></td><td>70</td><td>0.07%</td>
+<td>[SiR0,CR0](c1ccccc1)(c2ccccc2)(c3ccccc3)</td><tr><td>1051</td><td><a href="1051.html">Filter61_phosphor_halide_and_P_S_bond</a></td><td>69</td><td>0.07%</td>
+<td>[#15]~[F,Cl,Br,I,#16]</td><tr><td>247</td><td><a href="247.html">linear_polycyclic_aromatic_I</a></td><td>68</td><td>0.07%</td>
+<td>[$(a12aaaaa1aa3a(aa(aaaa4)a4a3)a2),$(a12aaaaa1aa3a(aaa4a3aaaa4)a2),$(a12aaaaa1a(aa5)a3a(aaa4a3a5aaa4)a2)]</td><tr><td>230</td><td><a href="230.html">gte_5_phenolic_OH</a></td><td>68</td><td>0.07%</td>
+<td>a[O;D1].a[O;D1].a[O;D1].a[O;D1].a[O;D1]</td><tr><td>20</td><td><a href="20.html">R21 Nitroso</a></td><td>67</td><td>0.07%</td>
+<td>[N&D2](=O)</td><tr><td>1006</td><td><a href="1006.html">Filter12_nitroso</a></td><td>67</td><td>0.07%</td>
+<td>[*,#1]~[NX2]~[OX1]</td><tr><td>811</td><td><a href="811.html">Allene</a></td><td>67</td><td>0.07%</td>
+<td>*=C=*</td><tr><td>90</td><td><a href="90.html">enamine</a></td><td>67</td><td>0.07%</td>
+<td>[CX2R0][NX3R0]</td><tr><td>280</td><td><a href="280.html">phosphorus_sulfur_bond</a></td><td>66</td><td>0.07%</td>
+<td>P~S</td><tr><td>928</td><td><a href="928.html">Aromatic_N-Oxide_more_than_one</a></td><td>66</td><td>0.07%</td>
+<td>[n+][O-X1].[n+][O-X1]</td><tr><td>256</td><td><a href="256.html">non_ring_ketal</a></td><td>66</td><td>0.07%</td>
+<td>[O,N,S;!$(S~O)]!@[C;H0;X4](!@[O,N,S;!$(S~O)])(C)</td><tr><td>1055</td><td><a href="1055.html">Filter65_alkyl_sulfonate</a></td><td>65</td><td>0.07%</td>
+<td>[#6][P,S](~[OX1])(~[OX1])O[C!H0]</td><tr><td>997</td><td><a href="997.html">Filter3_allyl_halide</a></td><td>65</td><td>0.07%</td>
+<td>[F,Cl,Br,I][CX4]C=C</td><tr><td>240</td><td><a href="240.html">halogen_heteroatom</a></td><td>64</td><td>0.06%</td>
+<td>[!C;!c;!H][F,Cl,Br,I]</td><tr><td>302</td><td><a href="302.html">tertiary_halide_sulfate</a></td><td>64</td><td>0.06%</td>
+<td>[C;X4](-[Cl,Br,I,$(O(S(=O)(=O)[!$(N);!$([O&D1])]))])(-[c,C])(-[c,C])(-[c,C])</td><tr><td>875</td><td><a href="875.html">Polynuclear_Aromatic_1</a></td><td>64</td><td>0.06%</td>
+<td>c1cccc(cc(cccc2)c2c3)c13</td><tr><td>908</td><td><a href="908.html">trifluroacetate_amide</a></td><td>62</td><td>0.06%</td>
+<td>FC(F)(F)C(=O)N</td><tr><td>281</td><td><a href="281.html">polyene</a></td><td>62</td><td>0.06%</td>
+<td>C=[C;!R][C;!R]=[C;!R][C;!R]=[C;!R]</td><tr><td>848</td><td><a href="848.html">geminal_amines</a></td><td>62</td><td>0.06%</td>
+<td>[NH1;!r][CX4][NH1;!r]</td><tr><td>947</td><td><a href="947.html">thioamide</a></td><td>61</td><td>0.06%</td>
+<td>CC(=S)N</td><tr><td>812</td><td><a href="812.html">Alpha_Halo_Carbonyl</a></td><td>61</td><td>0.06%</td>
+<td>[C;!$(C[N])](=O)!@[C;h1,h2;H1,H2][F,Cl,Br,I]</td><tr><td>172</td><td><a href="172.html">acyclic_imide</a></td><td>60</td><td>0.06%</td>
+<td>[C,c][C;!R](=O)[N;!R][C;!R](=O)[C,c]</td><tr><td>979</td><td><a href="979.html">nitrate</a></td><td>57</td><td>0.06%</td>
+<td>[#6]-O-[N+](=O)[O-]</td><tr><td>72</td><td><a href="72.html">Carbocation/anion</a></td><td>57</td><td>0.06%</td>
+<td>[C+,c+,C-,c-]</td><tr><td>819</td><td><a href="819.html">Azobenzene</a></td><td>56</td><td>0.06%</td>
+<td>c1ccccc1[N!r]=[N!r]c2ccccc2</td><tr><td>140</td><td><a href="140.html">Sulphur-nitrogen single bond</a></td><td>56</td><td>0.06%</td>
+<td>[SX2H0][N]</td><tr><td>1007</td><td><a href="1007.html">Filter13_PS_double_bond</a></td><td>56</td><td>0.06%</td>
+<td>S=P~[*,#1]</td><tr><td>1110</td><td><a href="1110.html">phosphanethione</a></td><td>56</td><td>0.06%</td>
+<td>S=P~*</td><tr><td>412</td><td><a href="412.html">ene_five_het_G(10)</a></td><td>55</td><td>0.06%</td>
+<td>[#6]-1(=[#6])-[#6](-[#7,#16,#8][#6](-[!#1])=[#7]-1)=[#8]</td><tr><td>992</td><td><a href="992.html">Dye 8</a></td><td>55</td><td>0.06%</td>
+<td>c12cccc(C(=O)N(-&!@C)C(=O)3)c2c3ccc1</td><tr><td>316</td><td><a href="316.html">trifluoromethyl_ketone</a></td><td>54</td><td>0.05%</td>
+<td>[$(C(=O));!$(C-N);!$(C-O);!$(C-S)]C(F)(F)(F)</td><tr><td>343</td><td><a href="343.html">ene_five_het_B(90)</a></td><td>51</td><td>0.05%</td>
+<td>[#6]-1(=[#6])-[#6](-[#7]=[#6]-[#16]-1)=[#8]</td><tr><td>207</td><td><a href="207.html">carbodiimide_iso#thio#cyanate</a></td><td>50</td><td>0.05%</td>
+<td>N=C=[N,O,S]</td><tr><td>1002</td><td><a href="1002.html">Filter8_thio_isocyanat_diimin</a></td><td>50</td><td>0.05%</td>
+<td>N=C=[N,O,P,S]</td><tr><td>43</td><td><a href="43.html">I13 Cyanamides</a></td><td>50</td><td>0.05%</td>
+<td>N[CH2]C#N</td><tr><td>867</td><td><a href="867.html">pentahalophenyl</a></td><td>49</td><td>0.05%</td>
+<td>c1c([F,Cl])c([F,Cl])c([F,Cl])c([F,Cl])c1([F,Cl])</td><tr><td>10</td><td><a href="10.html">R11 Isocyanates & Isothiocyanates</a></td><td>49</td><td>0.05%</td>
+<td>N=C=[S,O]</td><tr><td>406</td><td><a href="406.html">keto_phenone_A(11)</a></td><td>49</td><td>0.05%</td>
+<td>c:1:c-3:c(:c:c:c:1)-[#6]:2:[#7]:[!#1]:[#6]:[#6]:[#6]:2-[#6]-3=[#8]</td><tr><td>23</td><td><a href="23.html">R24 Isonitrile</a></td><td>48</td><td>0.05%</td>
+<td>[N+]#[C-]</td><tr><td>253</td><td><a href="253.html">nitrosamine</a></td><td>47</td><td>0.05%</td>
+<td>N-[N;X2](=O)</td><tr><td>154</td><td><a href="154.html">2halo_pyridine_5EWG</a></td><td>46</td><td>0.05%</td>
+<td>[#7;R1]1[#6;!$(c=O)]([F,Cl,Br,I])[#6][#6;!$(c-N)][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6;!$(c=O);!$(c-N)]1</td><tr><td>48</td><td><a href="48.html">N2 Polyenes</a></td><td>45</td><td>0.04%</td>
+<td>C=CC=CC=CC=C</td><tr><td>186</td><td><a href="186.html">anhydride</a></td><td>44</td><td>0.04%</td>
+<td>[$(C(=O)),$(C(=S))]-[O,S]-[$(C(=O)),$(C(=S)),$(C(=[N;!R])),$(C(=N(-[C;X4])))]</td><tr><td>860</td><td><a href="860.html">N-S_(not_sulfonamides)</a></td><td>42</td><td>0.04%</td>
+<td>[#6][S!$(S(~[OD1])~[OD1])][N;H0]</td><tr><td>1079</td><td><a href="1079.html">Filter90_N_double_bond_S</a></td><td>42</td><td>0.04%</td>
+<td>N=!@S</td><tr><td>210</td><td><a href="210.html">crown_ether</a></td><td>42</td><td>0.04%</td>
+<td>[$([O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18]),$([O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18]),$([O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][CH,CH2;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18][O,S,#7;R1;r9,r10,r11,r12,r13,r14,r15,r16,r17,r18])]</td><tr><td>335</td><td><a href="335.html">ene_five_hetA1(201A)</a></td><td>41</td><td>0.04%</td>
+<td>[#6]-1(=[#6])-[#6]=[#7]-[#7,#8,#16]-[#6]-1=[#8]</td><tr><td>336</td><td><a href="336.html">ene_five_het_A(201)</a></td><td>41</td><td>0.04%</td>
+<td>[#6]-1(=[#6])-[#6]=[#7]-[!#6&!#1]-[#6]-1=[#8]</td><tr><td>21</td><td><a href="21.html">R22 P/S Halides</a></td><td>41</td><td>0.04%</td>
+<td>[P,S][Cl,Br,F,I]</td><tr><td>871</td><td><a href="871.html">Phosphorus_Halide</a></td><td>41</td><td>0.04%</td>
+<td>[S,P][F,Cl,Br,I]</td><tr><td>931</td><td><a href="931.html">P/S halide</a></td><td>41</td><td>0.04%</td>
+<td>[P,S][F,Cl,Br,I]</td><tr><td>913</td><td><a href="913.html">oxy-amide</a></td><td>41</td><td>0.04%</td>
+<td>[#6]C(=O)!@C!@C(=O)N</td><tr><td>49</td><td><a href="49.html">N3 Saponin derivatives</a></td><td>41</td><td>0.04%</td>
+<td>O1CCCCC1OC2CCC3CCCCC3C2</td><tr><td>846</td><td><a href="846.html">Fluorinated_Carbon_1</a></td><td>40</td><td>0.04%</td>
+<td>C(C(CF)F)F</td><tr><td>974</td><td><a href="974.html">michael acceptor 5</a></td><td>40</td><td>0.04%</td>
+<td>N#CC(=C)C#N</td><tr><td>886</td><td><a href="886.html">Sulphur_Nitrogen_single_bond</a></td><td>39</td><td>0.04%</td>
+<td>[SX2H0]!@[N]</td><tr><td>1050</td><td><a href="1050.html">Filter60_Acyclic_N-S</a></td><td>39</td><td>0.04%</td>
+<td>N!@[SX2]</td><tr><td>983</td><td><a href="983.html">Triphenylphosphine</a></td><td>39</td><td>0.04%</td>
+<td>a-P(-a)-a</td><tr><td>996</td><td><a href="996.html">Filter2_acyl_phosphyl_sulfonyl_halide</a></td><td>38</td><td>0.04%</td>
+<td>[C,S,P](=O)[F,Cl,Br,I]</td><tr><td>1072</td><td><a href="1072.html">Filter83_per_halo_chain</a></td><td>38</td><td>0.04%</td>
+<td>[F,Cl,Br,I]C-,=;!@C([F,Cl,Br,I])-,=;!@C([F,Cl,Br,I])</td><tr><td>864</td><td><a href="864.html">p-Aminoaryl_diazo</a></td><td>38</td><td>0.04%</td>
+<td>Nc1aaa(N!@=N)aa1</td><tr><td>1096</td><td><a href="1096.html">acyclic N-S</a></td><td>38</td><td>0.04%</td>
+<td>N-!@[SX2]-*</td><tr><td>1039</td><td><a href="1039.html">Filter45_allyl_halide2</a></td><td>38</td><td>0.04%</td>
+<td>[Br,Cl,I][CX4]C=[C,N,P]</td><tr><td>14</td><td><a href="14.html">R15 Aromatic azides</a></td><td>37</td><td>0.04%</td>
+<td>cN=[N+]=[N-]</td><tr><td>817</td><td><a href="817.html">aromatic_azides</a></td><td>37</td><td>0.04%</td>
+<td>cN=N=N</td><tr><td>956</td><td><a href="956.html">Dye 1 (1)</a></td><td>37</td><td>0.04%</td>
+<td>c1cccc(C(=O)[C,c]([#7])=,:[C,c]([#7])C2(=O))c12</td><tr><td>1</td><td><a href="1.html">R2 Acid halides</a></td><td>37</td><td>0.04%</td>
+<td>[S,C](=[O,S])[F,Br,Cl,I]</td><tr><td>5</td><td><a href="5.html">R6 Acid anhydrides</a></td><td>37</td><td>0.04%</td>
+<td>C(=O)OC(=O)</td><tr><td>1021</td><td><a href="1021.html">Filter27_anhydride</a></td><td>37</td><td>0.04%</td>
+<td>*[C,S](=O)O[C,S](=O)*</td><tr><td>1061</td><td><a href="1061.html">Filter71_thio_anhydride</a></td><td>37</td><td>0.04%</td>
+<td>*C(=[O,S])[O,S]C(=[O,S])*</td><tr><td>1113</td><td><a href="1113.html">thionyl</a></td><td>37</td><td>0.04%</td>
+<td>[Sv4](=O)(-!@[!#1])-!@[!#1]</td><tr><td>1005</td><td><a href="1005.html">Filter11_nitrosamin</a></td><td>37</td><td>0.04%</td>
+<td>[NR0]~[NX2]~[OX1]</td><tr><td>815</td><td><a href="815.html">Anhydride</a></td><td>36</td><td>0.04%</td>
+<td>[#6]C(=O)OC(=O)[#6]</td><tr><td>258</td><td><a href="258.html">ortho_hydroquinone</a></td><td>35</td><td>0.04%</td>
+<td>a1c([O,S;D1])c([O,S;D1])a[cH1][cH1]1</td><tr><td>168</td><td><a href="168.html">activated_acetylene</a></td><td>35</td><td>0.04%</td>
+<td>[$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))]C#[C;!$(C-N);!$(C-n)]</td><tr><td>987</td><td><a href="987.html">Phenalene</a></td><td>35</td><td>0.04%</td>
+<td>c1(c)c2c(c)cccc2ccc1</td><tr><td>1011</td><td><a href="1011.html">Filter17_trialkyl_phosphin2</a></td><td>35</td><td>0.04%</td>
+<td>[PX4](~[!O!S])([#6])([#6])[#6]</td><tr><td>878</td><td><a href="878.html">Sulphur_Halide</a></td><td>34</td><td>0.03%</td>
+<td>[#16][F,Cl,Br,I]</td><tr><td>1037</td><td><a href="1037.html">Filter43_michael_acceptor_sp1</a></td><td>34</td><td>0.03%</td>
+<td>C#CC=O</td><tr><td>153</td><td><a href="153.html">2halo_pyridine_3EWG</a></td><td>33</td><td>0.03%</td>
+<td>[#7;R1]1[#6;!$(c=O)]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6;!$(c-N)][#6][#6;!$(c-N)]1</td><tr><td>178</td><td><a href="178.html">acyl_pyrazole</a></td><td>33</td><td>0.03%</td>
+<td>[C;!$(C-N)](=O)[#7]1[#7][#6;H1,$([#6]([*;!R]))][#6;H1,$([#6]([*;!R]))][#6;H1,$([#6]([*;!R]))]1</td><tr><td>294</td><td><a href="294.html">sulf_D2_nitrogen</a></td><td>33</td><td>0.03%</td>
+<td>[S;D2](-[N;!$(N(=C));!$(N(-S(=O)(=O)));!$(N(-C(=O)))])</td><tr><td>347</td><td><a href="347.html">keto_keto_beta_A(68)</a></td><td>32</td><td>0.03%</td>
+<td>c:1-2:c(:c:c:c:c:1)-[#6](=[#8])-[#6;X4]-[#6]-2=[#8]</td><tr><td>265</td><td><a href="265.html">para_hydroquinone</a></td><td>31</td><td>0.03%</td>
+<td>a1[cH1]c([O,S;D1])[cH1]ac([O,S;D1])1</td><tr><td>884</td><td><a href="884.html">S=N_(not_ring)</a></td><td>31</td><td>0.03%</td>
+<td>[S;R0]=[N;R0]</td><tr><td>895</td><td><a href="895.html">triphenylphosphines</a></td><td>31</td><td>0.03%</td>
+<td>P(c1aaaaa1)(c1aaaaa1)(c1aaaaa1)</td><tr><td>249</td><td><a href="249.html">maleimide_etc</a></td><td>30</td><td>0.03%</td>
+<td>[$([C;H1]),$(C(-[F,Cl,Br,I]))]1=[$([C;H1]),$(C(-[F,Cl,Br,I]))]C(=O)[N,O,S]C(=O)1</td><tr><td>843</td><td><a href="843.html">Enyne</a></td><td>30</td><td>0.03%</td>
+<td>C=!@CC#C</td><tr><td>248</td><td><a href="248.html">linear_polycyclic_aromatic_II</a></td><td>30</td><td>0.03%</td>
+<td>[$(a12aaaa4a1a3a(aaaa3aa4)aa2),$(a12aaaaa1a3a(aaa4a3aaaa4)aa2),$(a1(a(aaaa4)a4a3a2aaaa3)a2aaaa1)]</td><tr><td>976</td><td><a href="976.html">alkynyl michael acceptor1</a></td><td>29</td><td>0.03%</td>
+<td>[#6]-C#CC(=O)[#6,#7,#8]</td><tr><td>277</td><td><a href="277.html">phosphonium</a></td><td>29</td><td>0.03%</td>
+<td>[#15;+]~[!O]</td><tr><td>167</td><td><a href="167.html">activated_S#O_3_ring</a></td><td>28</td><td>0.03%</td>
+<td>C1~[O,S]~[C,N,O,S]1[a,N,O,S]</td><tr><td>300</td><td><a href="300.html">sulfonyl_halide</a></td><td>27</td><td>0.03%</td>
+<td>S(=O)(=O)[F,Cl,Br,I]</td><tr><td>1019</td><td><a href="1019.html">Filter25_sulfonyl_halide</a></td><td>27</td><td>0.03%</td>
+<td>*S(=O)(=O)[F,Cl,Br,I]</td><tr><td>1106</td><td><a href="1106.html">sufonyl halide</a></td><td>27</td><td>0.03%</td>
+<td>S(=O)(=O)-[F,Cl,Br,I]</td><tr><td>820</td><td><a href="820.html">b-Carbonyl_Quaternary_Nitrogen</a></td><td>27</td><td>0.03%</td>
+<td>C(=O)CC[N+,n+]</td><tr><td>1107</td><td><a href="1107.html">N:C-SCH2 groups</a></td><td>26</td><td>0.03%</td>
+<td>[ND1]=C-!@[SX2]-[CH2D2]</td><tr><td>113</td><td><a href="113.html">N-C-halo</a></td><td>26</td><td>0.03%</td>
+<td>NC[F,Cl,Br,I]</td><tr><td>990</td><td><a href="990.html">Dye 31</a></td><td>26</td><td>0.03%</td>
+<td>a1aaac2ac3acac4aaac(c34)c12</td><tr><td>1001</td><td><a href="1001.html">Filter7_diazo</a></td><td>25</td><td>0.03%</td>
+<td>[!#7]~[NX2]~[NX1]</td><tr><td>30</td><td><a href="30.html">R31 Azoalkanals</a></td><td>25</td><td>0.03%</td>
+<td>[N;R0]=[N;R0]CC=O</td><tr><td>303</td><td><a href="303.html">thio_hydroxamate</a></td><td>25</td><td>0.03%</td>
+<td>[S;D2]([$(N(=C)),$(N(-S(=O)(=O))),$(N(-C(=O)))])</td><tr><td>206</td><td><a href="206.html">branched_polycyclic_aromatic</a></td><td>25</td><td>0.03%</td>
+<td>a1(a2aa(a3aaaaa3)aa(a4aaaaa4)a2)aaaaa1</td><tr><td>1068</td><td><a href="1068.html">Filter79_maleimide</a></td><td>24</td><td>0.02%</td>
+<td>[CH]1C(=O)NC(=O)[CH]=1</td><tr><td>1041</td><td><a href="1041.html">Filter47_so2f</a></td><td>23</td><td>0.02%</td>
+<td>O=S(=O)(*)F</td><tr><td>1018</td><td><a href="1018.html">Filter24_react_imide</a></td><td>23</td><td>0.02%</td>
+<td>*C([F,Cl,Br,I,$(OS(=O)(=O)*)])=[NX2]*</td><tr><td>225</td><td><a href="225.html">gte_2_sulfonic_acid</a></td><td>22</td><td>0.02%</td>
+<td>[C,c]S(=O)(=O)[O;D1].[C,c]S(=O)(=O)[O;D1]</td><tr><td>32</td><td><a href="32.html">I2 Compounds with 4 or more acidic groups</a></td><td>22</td><td>0.02%</td>
+<td>[C,S,P](=O)[OH].[C,S,P](=O)[OH].[C,S,P](=O)[OH].[C,S,P](=O)[OH]</td><tr><td>831</td><td><a href="831.html">Diacetylene</a></td><td>22</td><td>0.02%</td>
+<td>C#CC#C</td><tr><td>806</td><td><a href="806.html">Active_Phosphate</a></td><td>22</td><td>0.02%</td>
+<td>P(=S)([OH1,O$(O[#6])])([OH1,O$(O[#6])])[S,O]</td><tr><td>832</td><td><a href="832.html">Diazoalkane</a></td><td>21</td><td>0.02%</td>
+<td>C=[N+]=[N-]</td><tr><td>898</td><td><a href="898.html">Vinyl_Sulphone</a></td><td>21</td><td>0.02%</td>
+<td>[#6][CH1]!@=[CH1][S;H1,H0$(S(C)C)](=O)(=O)</td><tr><td>236</td><td><a href="236.html">halo_imino</a></td><td>21</td><td>0.02%</td>
+<td>C(=[#7])([Cl,Br,I,$(O(S(=O)(=O)))])</td><tr><td>199</td><td><a href="199.html">benzidine_like</a></td><td>21</td><td>0.02%</td>
+<td>c([N;!+])1ccc(c2ccc([N;!+])cc2)cc1</td><tr><td>933</td><td><a href="933.html">Heteroaryl sulfonate</a></td><td>21</td><td>0.02%</td>
+<td>a-S(=O)(=O)-O[$([a&!#6]),$(c[a&!#6]),$(cc[a&!#6]),$(ccc[a&!#6]),$(cccc[a&!#6]),$(ccccc[a&!#6])]</td><tr><td>855</td><td><a href="855.html">Michael_Phenyl_Ketone</a></td><td>21</td><td>0.02%</td>
+<td>c1ccccc1C(=O)C=!@CC(=O)!@*</td><tr><td>252</td><td><a href="252.html">nitrone</a></td><td>21</td><td>0.02%</td>
+<td>[C;!R]=[N+][O;D1]</td><tr><td>301</td><td><a href="301.html">sulfonyl_heteroatom</a></td><td>21</td><td>0.02%</td>
+<td>[!#6;!#1;!#11;!#19]O(S(=O)(=O)(-[C,c]))</td><tr><td>214</td><td><a href="214.html">diazo_carbonyl</a></td><td>20</td><td>0.02%</td>
+<td>[$(N=N=C~C=O),$(N#N-C~C=O)]</td><tr><td>197</td><td><a href="197.html">bad_boron</a></td><td>20</td><td>0.02%</td>
+<td>[B-,BH2,BH3,$(B(F)(F))]</td><tr><td>33</td><td><a href="33.html">I3 Crown ethers</a></td><td>19</td><td>0.02%</td>
+<td>[O;R1][C;R1][C;R1][O;R1][C;R1][C;R1][O;R1]</td><tr><td>1056</td><td><a href="1056.html">Filter66_c4_perfluoralkyl</a></td><td>19</td><td>0.02%</td>
+<td>C(F)(F)C(F)(F)C(F)(F)C(F)(F)</td><tr><td>11</td><td><a href="11.html">R12 Triflates</a></td><td>19</td><td>0.02%</td>
+<td>OS(=O)(=O)C(F)(F)F</td><tr><td>313</td><td><a href="313.html">triflate</a></td><td>19</td><td>0.02%</td>
+<td>OS(=O)(=O)(C(F)(F)(F))</td><tr><td>227</td><td><a href="227.html">gte_3_iodine</a></td><td>19</td><td>0.02%</td>
+<td>[#53].[#53].[#53]</td><tr><td>123</td><td><a href="123.html">phenyl carbonate</a></td><td>18</td><td>0.02%</td>
+<td>c1ccccc1OC(=O)O</td><tr><td>453</td><td><a href="453.html">keto_keto_gamma(5)</a></td><td>18</td><td>0.02%</td>
+<td>[#8]=[#6]-1-[#6;X4]-[#6]-[#6](=[#8])-c:2:c:c:c:c:c-1:2</td><tr><td>8</td><td><a href="8.html">R9 Paranitrophenyl esters</a></td><td>18</td><td>0.02%</td>
+<td>C(=O)Oc1ccc(N(=O)~[OX1])cc1</td><tr><td>866</td><td><a href="866.html">paranitrophenyl_esters</a></td><td>18</td><td>0.02%</td>
+<td>C(=O)Oc1ccc([N+](=O)[O-])cc1</td><tr><td>930</td><td><a href="930.html">p-nitrophenyl ester</a></td><td>18</td><td>0.02%</td>
+<td>C(=O)Oc1ccc([N+]([O-])=O)cc1</td><tr><td>856</td><td><a href="856.html">Nitrobenz-azadiazole_1</a></td><td>18</td><td>0.02%</td>
+<td>c1ccc(n[o,s]n2)c2c1[N+](=O)[O-]</td><tr><td>813</td><td><a href="813.html">Amino_Naphtalimide</a></td><td>17</td><td>0.02%</td>
+<td>c1(N)ccc(C(=O)NC3(=O))c(c3ccc2)c21</td><tr><td>184</td><td><a href="184.html">alpha_halo_heteroatom</a></td><td>17</td><td>0.02%</td>
+<td>[N,n,O,S;!$(S(=O)(=O))]-[CH,CH2;!$(C(F)(F))][F,Cl,Br,I,$(O(S(=O)(=O)))]</td><tr><td>170</td><td><a href="170.html">activated_vinyl_ester</a></td><td>17</td><td>0.02%</td>
+<td>O=COC=[$(C(S(=O)(=O))),$(C(C(F)(F)(F))),$(C(C#N)),$(C(N(=O)(=O))),$(C([N+](=O)[O-])),$(C(C(=O)));!$(C(N))]</td><tr><td>810</td><td><a href="810.html">AlkylEnamine</a></td><td>17</td><td>0.02%</td>
+<td>[C;H1$(C([#6;!$(C=O)])),H0$(C([#6;!$(C=O)])[#6;!$(C=O)])]=[CH1]!@N([#6;!$(C(=O))])[#6;!$(C(=O))]</td><tr><td>910</td><td><a href="910.html">Allene</a></td><td>17</td><td>0.02%</td>
+<td>C=C=C</td><tr><td>188</td><td><a href="188.html">aryl_thiocarbonyl</a></td><td>17</td><td>0.02%</td>
+<td>a-[S;X2;!R]-[C;!R](=O)</td><tr><td>383</td><td><a href="383.html">ene_cyano_A(19)</a></td><td>17</td><td>0.02%</td>
+<td>[#6](-[#6]#[#7])(-[#6]#[#7])=[#6]-c:1:c:c:c:c:c:1</td><tr><td>858</td><td><a href="858.html">noname</a></td><td>17</td><td>0.02%</td>
+<td>N1=C[S,NH1]C(=[C,N,P][C,N,O,P])C1(=O)</td><tr><td>250</td><td><a href="250.html">meldrums_acid_deriv</a></td><td>16</td><td>0.02%</td>
+<td>O=C1OC(C)(C)OC(C1)=O</td><tr><td>982</td><td><a href="982.html">quaternary nitroxy</a></td><td>16</td><td>0.02%</td>
+<td>C[N+](-[O-])(C)C</td><tr><td>366</td><td><a href="366.html">diazox_sulfon_A(36)</a></td><td>16</td><td>0.02%</td>
+<td>[#7](-c:1:c:c:c:c:c:1)-[#16](=[#8])(=[#8])-[#6]:2:[#6]:[#6]:[#6]:[#6]:3:[#7]:[$([#8]),$([#16])]:[#7]:[#6]:2:3</td><tr><td>874</td><td><a href="874.html">polyines</a></td><td>16</td><td>0.02%</td>
+<td>CC#CC#CC</td><tr><td>355</td><td><a href="355.html">ene_five_het_D(46)</a></td><td>15</td><td>0.01%</td>
+<td>[#6]-1(=[#6])-[#6](=[#8])-[#7]-[#7]-[#6]-1=[#8]</td><tr><td>405</td><td><a href="405.html">keto_keto_beta_B(12)</a></td><td>15</td><td>0.01%</td>
+<td>[#6;X4]-1-[#6](=[#8])-[#7]-[#7]-[#6]-1=[#8]</td><tr><td>826</td><td><a href="826.html">Conjugated_Dithioether</a></td><td>15</td><td>0.01%</td>
+<td>SC(=[!r])S</td><tr><td>364</td><td><a href="364.html">anthranil_one_A(38)</a></td><td>14</td><td>0.01%</td>
+<td>CC(=O)c1ccccc1[#7;H1][!$([#6]=[#8])]</td><tr><td>346</td><td><a href="346.html">hzone_pipzn(79)</a></td><td>14</td><td>0.01%</td>
+<td>CN1[C;H2][C;H2]N(N=[C;H1][#6]=,:[#6])[C;H2][C;H2]1</td><tr><td>368</td><td><a href="368.html">rhod_sat_A(33)</a></td><td>14</td><td>0.01%</td>
+<td>[#7]-1-[#6](=[#16])-[#16]-[#6;X4]-[#6]-1=[#8]</td><tr><td>245</td><td><a href="245.html">hyperval_sulfur</a></td><td>14</td><td>0.01%</td>
+<td>[$([#16&D3]),$([#16&D4])]=,:[#6]</td><tr><td>266</td><td><a href="266.html">para_nitrophenyl_ester</a></td><td>14</td><td>0.01%</td>
+<td>[#6]1(-O(-[C;!R](-[!N])(=[O,N;!R])))[#6][#6][#6]([$(N(=O)(=O)),$([N+](=O)[O-])])[#6][#6]1</td><tr><td>54</td><td><a href="54.html">N8 Squalestatin derivatives</a></td><td>13</td><td>0.01%</td>
+<td>C12OCCC(O1)CC2</td><tr><td>44</td><td><a href="44.html">I14 Four membered lactones</a></td><td>13</td><td>0.01%</td>
+<td>C1(=O)OCC1</td><tr><td>200</td><td><a href="200.html">beta_lactone</a></td><td>13</td><td>0.01%</td>
+<td>[#6,#15,#16]1(=O)~[#6]~[#6]~[#8,#16]1</td><tr><td>344</td><td><a href="344.html">imine_one_fives(89)</a></td><td>13</td><td>0.01%</td>
+<td>[#6]-1=[!#1]-[!#6&!#1]-[#6](-[#6]-1=[!#6&!#1;!R])=[#8]</td><tr><td>76</td><td><a href="76.html">chinone</a></td><td>13</td><td>0.01%</td>
+<td>C1(=[O,N])C(=[O,N])C=CC=C1</td><tr><td>1004</td><td><a href="1004.html">Filter10_Terminal_vinyl</a></td><td>13</td><td>0.01%</td>
+<td>[CH2]=[CH][N,O,P,S;R0]</td><tr><td>345</td><td><a href="345.html">ene_five_het_C(85)</a></td><td>12</td><td>0.01%</td>
+<td>[#6]-1(-[#6](-[#6]=[#6]-[!#6&!#1]-1)=[#6])=[!#6&!#1]</td><tr><td>298</td><td><a href="298.html">sulfonium</a></td><td>12</td><td>0.01%</td>
+<td>[S+;X3;$(S-C);!$(S-[O;D1])]</td><tr><td>1057</td><td><a href="1057.html">Filter67_S_or_O_C_triplebond_N</a></td><td>12</td><td>0.01%</td>
+<td>[O,S]C#N</td><tr><td>173</td><td><a href="173.html">acyl_123_triazole</a></td><td>12</td><td>0.01%</td>
+<td>[#7;R1]1~[#7;R1]~[#7;R1](-C(=O))~[#6]~[#6]1</td><tr><td>372</td><td><a href="372.html">cyano_pyridone_B(27)</a></td><td>12</td><td>0.01%</td>
+<td>[!#6][#6]1=,:[#7][#6]([#6])=,:[#6](C#N)[#6](=O)[#7]1</td><tr><td>202</td><td><a href="202.html">betalactam_EWG</a></td><td>12</td><td>0.01%</td>
+<td>C1(=O)~[#6]~[#6]N1([$(S(=O)(=O)[C,c,O&D2]),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)[C,c,O&D2])])</td><tr><td>40</td><td><a href="40.html">I10 Thiocyanate</a></td><td>11</td><td>0.01%</td>
+<td>SC#N</td><tr><td>1111</td><td><a href="1111.html">thio cyanates</a></td><td>11</td><td>0.01%</td>
+<td>S-C#N</td><tr><td>1089</td><td><a href="1089.html">hetero imides</a></td><td>11</td><td>0.01%</td>
+<td>[!#6]-[CH2]-N1C(=O)CCC(=O)1</td><tr><td>52</td><td><a href="52.html">N6 Monensin derivatives</a></td><td>11</td><td>0.01%</td>
+<td>O1CCCCC1C2CCCO2</td><tr><td>923</td><td><a href="923.html">cyclobutene</a></td><td>11</td><td>0.01%</td>
+<td>C1CC=C1</td><tr><td>1017</td><td><a href="1017.html">Filter23_ortho_quinone</a></td><td>11</td><td>0.01%</td>
+<td>C1(C=CC=CC1=O)=O</td><tr><td>71</td><td><a href="71.html">biotin analogue</a></td><td>10</td><td>0.01%</td>
+<td>C12C(NC(N1)=O)CSC2</td><tr><td>365</td><td><a href="365.html">cyano_imine_A(37)</a></td><td>10</td><td>0.01%</td>
+<td>[#7;H1][#7]=[#6](-[#6]#[#7])-[#6]=[!#6&!#1;!R]</td><tr><td>309</td><td><a href="309.html">thiosulfoxide</a></td><td>10</td><td>0.01%</td>
+<td>[C,c][S;X3](~O)-S</td><tr><td>57</td><td><a href="57.html">acid halide</a></td><td>10</td><td>0.01%</td>
+<td>C(=O)[Cl,Br,I,F]</td><tr><td>208</td><td><a href="208.html">carbonyl_halide</a></td><td>10</td><td>0.01%</td>
+<td>O=C[F,Cl,Br,I]</td><tr><td>1103</td><td><a href="1103.html">acyl halide</a></td><td>10</td><td>0.01%</td>
+<td>O=C-[F,Cl,Br,I]</td><tr><td>221</td><td><a href="221.html">four_nitriles</a></td><td>10</td><td>0.01%</td>
+<td>C#N.C#N.C#N.C#N</td><tr><td>263</td><td><a href="263.html">oxonium</a></td><td>10</td><td>0.01%</td>
+<td>[o+,O+]</td><tr><td>385</td><td><a href="385.html">dyes3A(19)</a></td><td>10</td><td>0.01%</td>
+<td>[#6]-,:[#6]:[#7+]=,:[#6][#6]=[#6][#7][#6;X4]</td><tr><td>1009</td><td><a href="1009.html">Filter15_thiosulfate</a></td><td>10</td><td>0.01%</td>
+<td>[SX4](~S)(~O)(~O)~*</td><tr><td>204</td><td><a href="204.html">bis_keto_olefin</a></td><td>10</td><td>0.01%</td>
+<td>CC(=O)[$([C&H1]),$(C-F),$(C-Cl),$(C-Br),$(C-I)]=[$([C&H1]),$(C-F),$(C-Cl),$(C-Br),$(C-I)]C(=O)C</td><tr><td>194</td><td><a href="194.html">azo_filter2</a></td><td>10</td><td>0.01%</td>
+<td>[N;!$(N-S(=O)(=O));!$(N-C=O)]-[N;!r3;!$(N-S(=O)(=O));!$(N-C=O)]-[N;!$(N-S(=O)(=O));!$(N-C=O)]</td><tr><td>868</td><td><a href="868.html">Phenanthrene</a></td><td>10</td><td>0.01%</td>
+<td>c12cccc3c1c4c(cc3)cccc4cc2</td><tr><td>879</td><td><a href="879.html">pyrene_fragments</a></td><td>10</td><td>0.01%</td>
+<td>c1c2cccc3c2c4c(cc3)cccc4c1</td><tr><td>964</td><td><a href="964.html">Dye 26</a></td><td>9</td><td>0.01%</td>
+<td>c1ccccc1-n2nnnc2[CH2]*</td><tr><td>348</td><td><a href="348.html">hzone_pyrrol(64)</a></td><td>9</td><td>0.01%</td>
+<td>Cn1cccc1C=NN</td><tr><td>371</td><td><a href="371.html">thiophene_hydroxy(28)</a></td><td>9</td><td>0.01%</td>
+<td>s1ccc(c1)-[#8;H1]</td><tr><td>270</td><td><a href="270.html">perhalo_dicarbonyl_phenyl</a></td><td>9</td><td>0.01%</td>
+<td>c1(C=O)c([Br,Cl,I])c([Br,Cl,I])c([Br,Cl,I])c([Br,Cl,I])c1(C=O)</td><tr><td>276</td><td><a href="276.html">phosphite</a></td><td>9</td><td>0.01%</td>
+<td>[c,C]-[P;v3]</td><tr><td>359</td><td><a href="359.html">thio_ketone(43)</a></td><td>9</td><td>0.01%</td>
+<td>[#6]-[#6](=[#16])-[#6]</td><tr><td>138</td><td><a href="138.html">sulfur oxygen single bond</a></td><td>8</td><td>0.01%</td>
+<td>[SX2]O</td><tr><td>1026</td><td><a href="1026.html">Filter32_oo_bond</a></td><td>8</td><td>0.01%</td>
+<td>[*,#1][OR0]O[*,#1]</td><tr><td>159</td><td><a href="159.html">4halo_pyridine_3EWG</a></td><td>8</td><td>0.01%</td>
+<td>[#7;R1]1[#6;!$(c=O);!$(c-N)][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6]([F,Cl,Br,I])[#6][#6;!$(c=O);!$(c-N)]1</td><tr><td>198</td><td><a href="198.html">bad_cations</a></td><td>8</td><td>0.01%</td>
+<td>[C+,F+,Cl+,Br+,I+,Se+]</td><tr><td>307</td><td><a href="307.html">thiol_warhead</a></td><td>8</td><td>0.01%</td>
+<td>NC(C[S;D1])C(O)=O</td><tr><td>378</td><td><a href="378.html">thio_dibenzo(23)</a></td><td>8</td><td>0.01%</td>
+<td>S=[#6]1[#6]=,:[#6][!#6,!#6][#6]=,:[#6]1</td><tr><td>575</td><td><a href="575.html">het_6666_A(2)</a></td><td>8</td><td>0.01%</td>
+<td>c:2:c:c:1:n:c:3:c(:n:c:1:c:c:2):c:c:c:4:c:3:c:c:c:c:4</td><tr><td>350</td><td><a href="350.html">cyano_ene_amine_A(56)</a></td><td>8</td><td>0.01%</td>
+<td>N#CC=C(N)C(C#N)C#N</td><tr><td>1022</td><td><a href="1022.html">Filter28_halo_pyrimidine</a></td><td>7</td><td>0.01%</td>
+<td>c1nc(ncc1)[Br,I]</td><tr><td>216</td><td><a href="216.html">dicarbonyl_sulfonamide</a></td><td>7</td><td>0.01%</td>
+<td>[$(N(-C(=O))(-C(=O))(-S(=O))),$(n([#6](=O))([#6](=O))([#16](=O)))]</td><tr><td>295</td><td><a href="295.html">sulf_D2_oxygen_D2</a></td><td>7</td><td>0.01%</td>
+<td>[S;D2][O;D2]</td><tr><td>1025</td><td><a href="1025.html">Filter31_so_bond</a></td><td>7</td><td>0.01%</td>
+<td>[*,#1][SX2R0]O[*,#1]</td><tr><td>182</td><td><a href="182.html">alpha_halo_amine</a></td><td>7</td><td>0.01%</td>
+<td>[F,Cl,Br,I,$(O(S(=O)(=O)))]-[CH,CH2;!$(C(F)F)]-[N,n]</td><tr><td>229</td><td><a href="229.html">gte_4_nitro</a></td><td>7</td><td>0.01%</td>
+<td>[$([N+](=O)[O-]),$(N(=O)=O)].[$([N+](=O)[O-]),$(N(=O)=O)].[$([N+](=O)[O-]),$(N(=O)=O)].[$([N+](=O)[O-]),$(N(=O)=O)]</td><tr><td>310</td><td><a href="310.html">triamide</a></td><td>7</td><td>0.01%</td>
+<td>[$(N(-C(=O))(-C(=O))(-C(=O))),$(n([#6](=O))([#6](=O))([#6](=O)))]</td><tr><td>1040</td><td><a href="1040.html">Filter46_nhalide</a></td><td>7</td><td>0.01%</td>
+<td>N[F,Cl,Br,I]</td><tr><td>1114</td><td><a href="1114.html">n-haloamines</a></td><td>7</td><td>0.01%</td>
+<td>N-[F,Cl,Br,I]</td><tr><td>150</td><td><a href="150.html">2halo_pyrazine_5EWG</a></td><td>7</td><td>0.01%</td>
+<td>[#7;R1]1[#6]([F,Cl,Br,I])[#6;!$(c-N)][#7][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6;!$(c-N)]1</td><tr><td>177</td><td><a href="177.html">acyl_imidazole</a></td><td>7</td><td>0.01%</td>
+<td>[C;!$(C-N)](=O)[#7]1[#6;H1,$([#6]([*;!R]))][#7][#6;H1,$([#6]([*;!R]))][#6;H1,$([#6]([*;!R]))]1</td><tr><td>945</td><td><a href="945.html">thioketone</a></td><td>7</td><td>0.01%</td>
+<td>CC(=S)C</td><tr><td>259</td><td><a href="259.html">ortho_nitrophenyl_carbonyl</a></td><td>7</td><td>0.01%</td>
+<td>[#6]1(-O-[C;!R](=[O,N;!R]))[#6]([$(N(=O)(=O)),$([N+](=O)[O-])])[#6][#6][#6][#6]1</td><tr><td>273</td><td><a href="273.html">phos_serine_warhead</a></td><td>7</td><td>0.01%</td>
+<td>NC(COP(O)(O)=O)C(O)=O</td><tr><td>351</td><td><a href="351.html">ene_five_one_A(55)</a></td><td>6</td><td>0.01%</td>
+<td>c:1-2:c(:c:c:c:c:1)-[#6](=[#8])-[#6](=[#6])-[#6]-2=[#8]</td><tr><td>287</td><td><a href="287.html">porphyrin</a></td><td>6</td><td>0.01%</td>
+<td>[#6;r16,r17,r18]~[#6]1~[#6]~[#6]~[#6](~[#6])~[#7]1</td><tr><td>251</td><td><a href="251.html">monofluoroacetate</a></td><td>6</td><td>0.01%</td>
+<td>[C;H2](F)C(=O)[O,N,S]</td><tr><td>960</td><td><a href="960.html">Dye 32</a></td><td>6</td><td>0.01%</td>
+<td>c1cccc2C(=O)C(C:,=*)C(=O)c12</td><tr><td>291</td><td><a href="291.html">quinone_methide</a></td><td>6</td><td>0.01%</td>
+<td>[#6;!$([#6](-[N,O,S]))]1=[#6;!$([#6](-[N,O,S]))][#6](=[#6])[#6;!$([#6](-[N,O,S]))]=[#6;!$([#6](-[N,O,S]))][#6]1(=[O,N,S])</td><tr><td>379</td><td><a href="379.html">cyano_cyano_A(23)</a></td><td>6</td><td>0.01%</td>
+<td>[#6](-[#6]#[#7])(-[#6]#[#7])-[#6](-[$([#6]#[#7]),$([#6]=[#7])])-[#6]#[#7]</td><tr><td>376</td><td><a href="376.html">naphth_amino_B(25)</a></td><td>6</td><td>0.01%</td>
+<td>[C;X4]1[N;H1]c3cccc2cccc([N;H1]1)c23</td><tr><td>114</td><td><a href="114.html">N-halo</a></td><td>6</td><td>0.01%</td>
+<td>[NX3,NX4][F,Cl,Br,I]</td><tr><td>164</td><td><a href="164.html">NO_phosphonate</a></td><td>6</td><td>0.01%</td>
+<td>P(=O)ON</td><tr><td>158</td><td><a href="158.html">4_pyridone_3_5_EWG</a></td><td>6</td><td>0.01%</td>
+<td>[#7,#8,#16]1~[#6;H]~[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])~[#6](=O)~[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])~[#6;H]1</td><tr><td>1010</td><td><a href="1010.html">Filter16_trialkyl_phosphin</a></td><td>6</td><td>0.01%</td>
+<td>[PX3]([#6])([#6])[#6]</td><tr><td>883</td><td><a href="883.html">Ring_Triple_Bond</a></td><td>6</td><td>0.01%</td>
+<td>[C,c;R]#[C,c;R]</td><tr><td>289</td><td><a href="289.html">quat_N_N</a></td><td>5</td><td>0.01%</td>
+<td>[N,n;R;+]!@[N,n]</td><tr><td>145</td><td><a href="145.html">thiol</a></td><td>5</td><td>0.01%</td>
+<td>[S-]</td><tr><td>169</td><td><a href="169.html">activated_diazo</a></td><td>5</td><td>0.01%</td>
+<td>[N;!R]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])=[N;!R]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O))])</td><tr><td>353</td><td><a href="353.html">anil_alk_ene(51)</a></td><td>5</td><td>0.01%</td>
+<td>c:1:c:c-2:c(:c:c:1)-[#6]-3-[#6](-[#6]-[#7]-2)-[#6]-[#6]=[#6]-3</td><tr><td>286</td><td><a href="286.html">polysulfide</a></td><td>5</td><td>0.01%</td>
+<td>[S;D2]-[S;D2]-[S;D2]</td><tr><td>877</td><td><a href="877.html">Polysulfide</a></td><td>5</td><td>0.01%</td>
+<td>*[SX2][SX2][SX2]*</td><tr><td>853</td><td><a href="853.html">Imine2</a></td><td>5</td><td>0.01%</td>
+<td>[#6,#8,#16]-[CH1]=[NH1]</td><tr><td>893</td><td><a href="893.html">Triazole</a></td><td>5</td><td>0.01%</td>
+<td>c1cnnn1!@C!@[NH1][#6]</td><tr><td>880</td><td><a href="880.html">Pyrylium</a></td><td>5</td><td>0.01%</td>
+<td>c1ccc[o+]c1</td><tr><td>454</td><td><a href="454.html">quinone_B(5)</a></td><td>5</td><td>0.01%</td>
+<td>c:1:c:c-2:c(:c:c:1)-[#6](-c3cccc4noc-2c34)=[#8]</td><tr><td>161</td><td><a href="161.html">4halo_pyrimidine_5EWG</a></td><td>5</td><td>0.01%</td>
+<td>[#7]1[#6][#7;R1][#6]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6]1</td><tr><td>102</td><td><a href="102.html">isocyanate</a></td><td>5</td><td>0.01%</td>
+<td>N=C=O</td><tr><td>1052</td><td><a href="1052.html">Filter62_oxo_thio_halide</a></td><td>5</td><td>0.01%</td>
+<td>[O,S]~[Cl,Br,I]</td><tr><td>203</td><td><a href="203.html">bis_activated_aryl_ester</a></td><td>5</td><td>0.01%</td>
+<td>O=[C,S]Oc1aaa([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])aa([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C(=O)O),$(C(=O)N)])1</td><tr><td>825</td><td><a href="825.html">CCl3-CHO_releasing</a></td><td>5</td><td>0.01%</td>
+<td>C(Cl)(Cl)(Cl)C([O,S])[NX3]</td><tr><td>87</td><td><a href="87.html">diaminobenzene</a></td><td>5</td><td>0.01%</td>
+<td>[cR2]1[cR2]c([N+0X3R0,nX3R0])[cR2][cR2]c1([N+0X3R0,nX3R0])</td><tr><td>308</td><td><a href="308.html">thiopyrylium</a></td><td>5</td><td>0.01%</td>
+<td>c1[S,s;+]cccc1</td><tr><td>305</td><td><a href="305.html">thiocarbonate</a></td><td>5</td><td>0.01%</td>
+<td>SC(=O)[O,S]</td><tr><td>1024</td><td><a href="1024.html">Filter30_beta_halo_carbonyl</a></td><td>5</td><td>0.01%</td>
+<td>[#6,#1]C(=O)CC[Br,I]</td><tr><td>369</td><td><a href="369.html">hzone_enamin(30)</a></td><td>5</td><td>0.01%</td>
+<td>[#7][#7]=[#6][#6](-[$([#1]),$([#6])])=[#6]([#6])-!@[$([#7]),$([#8])]</td><tr><td>213</td><td><a href="213.html">diamino_sulfide</a></td><td>5</td><td>0.01%</td>
+<td>[N,n]~[S;!R;D2]~[N,n]</td><tr><td>835</td><td><a href="835.html">Dinitrobenzene_1</a></td><td>5</td><td>0.01%</td>
+<td>c1c([N+](=O)[O-])c([N+](=O)[O-])ccc1</td><tr><td>151</td><td><a href="151.html">2halo_pyridazine_3EWG</a></td><td>4</td><td>0.00%</td>
+<td>[#7;R1]1[#6]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6][#6][#7]1</td><tr><td>807</td><td><a href="807.html">Adjacent_Ring_Double_Bonds</a></td><td>4</td><td>0.00%</td>
+<td>[*;R]=[*;R]=[*;R]</td><tr><td>314</td><td><a href="314.html">trifluoroacetate_ester</a></td><td>4</td><td>0.00%</td>
+<td>C(F)(F)(F)C(=O)O</td><tr><td>39</td><td><a href="39.html">I9 Hydrazothiourea</a></td><td>4</td><td>0.00%</td>
+<td>N=NC(=S)N</td><tr><td>243</td><td><a href="243.html">hydrazothiourea</a></td><td>4</td><td>0.00%</td>
+<td>[N;!R]=NC(=S)N</td><tr><td>957</td><td><a href="957.html">Dye 7</a></td><td>4</td><td>0.00%</td>
+<td>N=C1[#6]:,=[#6]C(=[C,N])[#6]:,=[#6]1</td><tr><td>919</td><td><a href="919.html">Thiomorpholinedione</a></td><td>4</td><td>0.00%</td>
+<td>N1C(=O)CSCC1=O</td><tr><td>977</td><td><a href="977.html">alkynyl michael acceptor2</a></td><td>4</td><td>0.00%</td>
+<td>[CH1]#CC(=O)-[#6,#7,#8]</td><tr><td>418</td><td><a href="418.html">imine_imine_A(9)</a></td><td>4</td><td>0.00%</td>
+<td>c:1:c:c-2:c(:c:c:1)-[#7]=[#6]-[#6]-2=[#7;!R]</td><tr><td>841</td><td><a href="841.html">Dithiole-3-thione</a></td><td>4</td><td>0.00%</td>
+<td>S1C=CSC1=C</td><tr><td>38</td><td><a href="38.html">I8 2,3,4 trihydroxyphenyl</a></td><td>4</td><td>0.00%</td>
+<td>c([OH])c([OH])cc([OH])</td><tr><td>377</td><td><a href="377.html">ene_one_ester(24)</a></td><td>4</td><td>0.00%</td>
+<td>[#6]-[#8]-[#6](=[#8])-[#6](-[#7][#6])=[#6]-[#6](-[#6])=[#8]</td><tr><td>18</td><td><a href="18.html">R19 Phosphoranes</a></td><td>4</td><td>0.00%</td>
+<td>C=P</td><tr><td>67</td><td><a href="67.html">Azo group</a></td><td>4</td><td>0.00%</td>
+<td>N#N</td><tr><td>833</td><td><a href="833.html">Diazonium_Salt</a></td><td>4</td><td>0.00%</td>
+<td>[N+]#N</td><tr><td>304</td><td><a href="304.html">thio_xanthate</a></td><td>4</td><td>0.00%</td>
+<td>[S;!R]-[C;!R](=[S;!R])(-[S;!R])</td><tr><td>155</td><td><a href="155.html">2halo_pyrimidine_5EWG</a></td><td>4</td><td>0.00%</td>
+<td>[#7;R1]1[#6]([F,Cl,Br,I])[#7][#6][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6]1</td><tr><td>283</td><td><a href="283.html">polyhalo_phenol_b</a></td><td>4</td><td>0.00%</td>
+<td>c1c([O;D1])c(-[Cl,Br,I])cc(-[Cl,Br,I])c1.c1c([O;D1])c(-[Cl,Br,I])cc(-[Cl,Br,I])c1</td><tr><td>392</td><td><a href="392.html">thio_carbonate_A(15)</a></td><td>4</td><td>0.00%</td>
+<td>[#7,#8]c2ccc1oc(=[#8,#16])sc1c2</td><tr><td>413</td><td><a href="413.html">acyl_het_A(9)</a></td><td>3</td><td>0.00%</td>
+<td>[#7+](:[!#1]:[!#1]:[!#1])-[!#1]=[#8]</td><tr><td>13</td><td><a href="13.html">R14 phosphoramides</a></td><td>3</td><td>0.00%</td>
+<td>NP(=O)(N)N</td><tr><td>395</td><td><a href="395.html">anil_di_alk_F(14)</a></td><td>3</td><td>0.00%</td>
+<td>c:1:c:c(:c:c:c:1-[#6;X4]-c:2:c:c:c(:c:c:2)-[#7](-[$([#1]),$([#6;X4])])-[$([#1]),$([#6;X4])])-[#7](-[$([#1]),$([#6;X4])])-[$([#1]),$([#6;X4])]</td><tr><td>1043</td><td><a href="1043.html">Filter49_halogen</a></td><td>3</td><td>0.00%</td>
+<td>[*,#1]~[F,Cl,Br,I]~[*,#1]</td><tr><td>357</td><td><a href="357.html">ene_five_het_E(44)</a></td><td>3</td><td>0.00%</td>
+<td>[#7]-[#6]=!@[#6]-2-[#6](=[#8])-c:1:c:c:c:c:c:1-[!#6&!#1]-2</td><tr><td>873</td><td><a href="873.html">polyene_chain_between_aromatics</a></td><td>3</td><td>0.00%</td>
+<td>cC=CC=CC=Cc</td><tr><td>450</td><td><a href="450.html">het_65_C(6)</a></td><td>3</td><td>0.00%</td>
+<td>n2c1ccccn1c(c2-[$([#6](-[!#1])=[#6](-[#1])-[#6]:[#6]),$([#6]:[#8]:[#6])])-[#7]-[#6]:[#6]</td><tr><td>375</td><td><a href="375.html">naphth_amino_A(25)</a></td><td>3</td><td>0.00%</td>
+<td>c1cc2cccc3[#7][#6]=,:[#7]c(c1)c23</td><tr><td>458</td><td><a href="458.html">ene_misc_A(5)</a></td><td>3</td><td>0.00%</td>
+<td>[#6]-1=[#6]-[#6](-[#8]-[#6]-1-[#8])(-[#8])-[#6]</td><tr><td>267</td><td><a href="267.html">para_quinone</a></td><td>3</td><td>0.00%</td>
+<td>[CH1,$(C(-[Cl,Br,I]))]1=[CH1,$(C(-[Cl,Br,I]))]C(=[O,N,S])[CH1,$(C(-[Cl,Br,I]))]=[CH1,$(C(-[Cl,Br,I]))]C1(=[O,N,S])</td><tr><td>107</td><td><a href="107.html">Michael acceptor</a></td><td>3</td><td>0.00%</td>
+<td>[$([CH]),$(CC)]#CC(=O)[C,c]</td><tr><td>285</td><td><a href="285.html">polyhalo_phenol_d</a></td><td>3</td><td>0.00%</td>
+<td>c(-[Cl,Br,I])1c([O;D1])c(-[Cl,Br,I])ccc1.c(-[Cl,Br,I])1c([O;D1])c(-[Cl,Br,I])ccc1</td><tr><td>311</td><td><a href="311.html">triaryl_phosphine_oxide</a></td><td>3</td><td>0.00%</td>
+<td>P(=O)(a)(a)(a)</td><tr><td>268</td><td><a href="268.html">paraquat_like</a></td><td>2</td><td>0.00%</td>
+<td>[#6]1[#6][#6]([#6]2[#6][#6][#7;+][#6][#6]2)[#6][#6][#7;+]1</td><tr><td>139</td><td><a href="139.html">sulphate</a></td><td>2</td><td>0.00%</td>
+<td>OS(=O)(=O)[O-]</td><tr><td>185</td><td><a href="185.html">alpha_halo_heteroatom_tert</a></td><td>2</td><td>0.00%</td>
+<td>[N,n,O,S;!$(S(=O)(=O))]-C([Cl,Br,I,$(O(S(=O)(=O)))])(C)(C)</td><tr><td>110</td><td><a href="110.html">Michael acceptor</a></td><td>2</td><td>0.00%</td>
+<td>[$([CH]),$(CC)]#CC(=O)O[C,c]</td><tr><td>149</td><td><a href="149.html">2halo_pyrazine_3EWG</a></td><td>2</td><td>0.00%</td>
+<td>[#7;R1]1[#6]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#7][#6][#6]1</td><tr><td>857</td><td><a href="857.html">Nitrobenz-azadiazole_2</a></td><td>2</td><td>0.00%</td>
+<td>c1c([N+](=O)[O-])cc(n[o,s]n2)c2c1</td><tr><td>29</td><td><a href="29.html">R30 Azocyanamides</a></td><td>2</td><td>0.00%</td>
+<td>[N;R0]=[N;R0]C#N</td><tr><td>78</td><td><a href="78.html">crown ether</a></td><td>2</td><td>0.00%</td>
+<td>[OR2,NR2]@[CR2]@[CR2]@[OR2,NR2]@[CR2]@[CR2]@[OR2,NR2]</td><tr><td>312</td><td><a href="312.html">trichloromethyl_ketone</a></td><td>2</td><td>0.00%</td>
+<td>[$(C(=O));!$(C-N);!$(C-O);!$(C-S)]C(Cl)(Cl)(Cl)</td><tr><td>381</td><td><a href="381.html">het_65_A(21)</a></td><td>2</td><td>0.00%</td>
+<td>O=Cc1cnn2c([#8;H1])ccnc12</td><tr><td>318</td><td><a href="318.html">trinitro_aromatic</a></td><td>2</td><td>0.00%</td>
+<td>[$(a1aaa([$(N(=O)(=O)),$([N+](=O)[O-])])a([$(N(=O)(=O)),$([N+](=O)[O-])])a1([$(N(=O)(=O)),$([N+](=O)[O-])])),$(a1aa([$(N(=O)(=O)),$([N+](=O)[O-])])a([$(N(=O)(=O)),$([N+](=O)[O-])])aa1([$(N(=O)(=O)),$([N+](=O)[O-])])),$(a1a([$(N(=O)(=O)),$([N+](=O)[O-])])aa([$(N(=O)(=O)),$([N+](=O)[O-])])aa1([$(N(=O)(=O)),$([N+](=O)[O-])]))]</td><tr><td>63</td><td><a href="63.html">amidotetrazole</a></td><td>2</td><td>0.00%</td>
+<td>c1nnnn1C=O</td><tr><td>809</td><td><a href="809.html">Aliphatic_Triflate</a></td><td>2</td><td>0.00%</td>
+<td>COS(=O)(=O)C(F)(F)F</td><tr><td>166</td><td><a href="166.html">activated_4mem_ring</a></td><td>2</td><td>0.00%</td>
+<td>[#6]1~[$(C(=O)),$(S(=O))]~[O,S,N]~[$(C(=O)),$(S(=O))]1</td><tr><td>290</td><td><a href="290.html">quat_N_acyl</a></td><td>2</td><td>0.00%</td>
+<td>[N,n;+]!@C(=O)</td><tr><td>836</td><td><a href="836.html">Dinitrobenzene_2</a></td><td>2</td><td>0.00%</td>
+<td>c1c([N+](=O)[O-])ccc([N+](=O)[O-])c1</td><tr><td>171</td><td><a href="171.html">activated_vinyl_sulfonate</a></td><td>2</td><td>0.00%</td>
+<td>O(-S(=O)(=O))C=[$(C(S(=O)(=O))),$(C(C(F)(F)(F))),$(C(C#N)),$(C(N(=O)(=O))),$(C([N+](=O)[O-])),$(C(C(=O)));!$(C(N))]</td><tr><td>135</td><td><a href="135.html">sulfinic acid</a></td><td>2</td><td>0.00%</td>
+<td>[SX3](=O)[O-,OH]</td><tr><td>24</td><td><a href="24.html">R25 Triacyloximes</a></td><td>2</td><td>0.00%</td>
+<td>C(=O)N(C(=O))OC(=O)</td><tr><td>175</td><td><a href="175.html">acyl_activated_NO</a></td><td>2</td><td>0.00%</td>
+<td>O=C(-[!N])O[$([#7;+]),$(N(C=[O,S,N])(C=[O,S,N]))]</td><tr><td>1013</td><td><a href="1013.html">Filter19_hydroxyimide_ester</a></td><td>2</td><td>0.00%</td>
+<td>O=C[NX3](C=O)OC(=O)*</td><tr><td>174</td><td><a href="174.html">acyl_134_triazole</a></td><td>2</td><td>0.00%</td>
+<td>[#7]1~[#7]~[#6]~[#7](-C(=O)[!N])~[#6]1</td><tr><td>399</td><td><a href="399.html">styrene_A(13)</a></td><td>2</td><td>0.00%</td>
+<td>[#6]-2-[#6]-c:1:c(:c:c:c:c:1)-[#6](-c:3:c:c:c:c:c-2:3)=[#6]-[#6]</td><tr><td>389</td><td><a href="389.html">cyano_imine_B(17)</a></td><td>2</td><td>0.00%</td>
+<td>N#CC(C#N)=NNc1ccccc1</td><tr><td>232</td><td><a href="232.html">gte_7_total_hal</a></td><td>2</td><td>0.00%</td>
+<td>[Cl,Br,I].[Cl,Br,I].[Cl,Br,I].[Cl,Br,I].[Cl,Br,I].[Cl,Br,I].[Cl,Br,I]</td><tr><td>269</td><td><a href="269.html">perchloro_cp</a></td><td>2</td><td>0.00%</td>
+<td>C1(Cl)(Cl)C(Cl)C(Cl)=C(Cl)C1(Cl)</td><tr><td>25</td><td><a href="25.html">R26 Cyanohydrins</a></td><td>2</td><td>0.00%</td>
+<td>N#CC[OH]</td><tr><td>830</td><td><a href="830.html">Cyanohydrin</a></td><td>2</td><td>0.00%</td>
+<td>N#CC[OH1]</td><tr><td>1015</td><td><a href="1015.html">Filter21_cyanhydrin</a></td><td>2</td><td>0.00%</td>
+<td>[NX1]#C[CX4][OH]</td><tr><td>19</td><td><a href="19.html">R20 Chloramidines</a></td><td>2</td><td>0.00%</td>
+<td>[Cl]C([C&R0])=N</td><tr><td>598</td><td><a href="598.html">thio_keto_het(2)</a></td><td>2</td><td>0.00%</td>
+<td>[#16]=[#6]-c:1:c:c:c:2:c:c:c:c:n:1:2</td><tr><td>358</td><td><a href="358.html">sulfonamide_A(43)</a></td><td>2</td><td>0.00%</td>
+<td>NS(=O)(=O)c1cc([F,Cl,Br,I])cc([F,Cl,Br,I])c1O</td><tr><td>3</td><td><a href="3.html">R4 Sulphate esters</a></td><td>2</td><td>0.00%</td>
+<td>COS(=O)O[C,c]</td><tr><td>297</td><td><a href="297.html">sulfite_sulfate_ester</a></td><td>2</td><td>0.00%</td>
+<td>[C,c]OS(=O)O[C,c]</td><tr><td>215</td><td><a href="215.html">diazonium</a></td><td>2</td><td>0.00%</td>
+<td>a[N+]#N</td><tr><td>9</td><td><a href="9.html">R10 esters of HOBT</a></td><td>2</td><td>0.00%</td>
+<td>C(=O)Onnn</td><tr><td>163</td><td><a href="163.html">HOBT_ester</a></td><td>2</td><td>0.00%</td>
+<td>O=C(-[!N])O[$(nnn),$([#7]-[#7]=[#7])]</td><tr><td>195</td><td><a href="195.html">azo_filter3</a></td><td>2</td><td>0.00%</td>
+<td>[N;!R]-[N;!R]-[N;!R]</td><tr><td>152</td><td><a href="152.html">2halo_pyridazine_5EWG</a></td><td>1</td><td>0.00%</td>
+<td>[#7;R1]1[#6]([F,Cl,Br,I])[#6][#6][#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#7]1</td><tr><td>861</td><td><a href="861.html">Orthoester</a></td><td>1</td><td>0.00%</td>
+<td>C(O)(O)[OH]</td><tr><td>889</td><td><a href="889.html">Thiophosphothionate</a></td><td>1</td><td>0.00%</td>
+<td>P(=S)(-[S;H1,H0$(S(P)C)])(-[O;H1,H0$(O(P)C)])(-N(C)C)</td><tr><td>423</td><td><a href="423.html">het_thio_66_one(8)</a></td><td>1</td><td>0.00%</td>
+<td>[#6](=[#8])-[#6]-1=[#6]-[#7]-c:2:c(-[#16]-1):c:c:c:c:2</td><tr><td>181</td><td><a href="181.html">alpha_halo_EWG</a></td><td>1</td><td>0.00%</td>
+<td>[$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-])]-[CH,CH2]-[Cl,Br,I,$(O(S(=O)(=O)))]</td><tr><td>907</td><td><a href="907.html">acid_anhydrides_2</a></td><td>1</td><td>0.00%</td>
+<td>[#6]C(=O)!@OC(=!@[N,O])[#6]</td><tr><td>896</td><td><a href="896.html">Triphenyl_Silyl</a></td><td>1</td><td>0.00%</td>
+<td>[Si](c1ccccc1)(c2ccccc2)(c3ccccc3)</td><tr><td>133</td><td><a href="133.html">silicon halogen</a></td><td>1</td><td>0.00%</td>
+<td>[Si][F,Cl,Br,I]</td><tr><td>946</td><td><a href="946.html">thionoester</a></td><td>1</td><td>0.00%</td>
+<td>COC(=S)C</td><tr><td>1065</td><td><a href="1065.html">Filter76_S_ester</a></td><td>1</td><td>0.00%</td>
+<td>CC(=S)O</td><tr><td>851</td><td><a href="851.html">hydrazothiourea</a></td><td>1</td><td>0.00%</td>
+<td>N=NC(S)N</td><tr><td>261</td><td><a href="261.html">oxaziridine</a></td><td>1</td><td>0.00%</td>
+<td>C1~[O,S]~N1</td><tr><td>384</td><td><a href="384.html">anthranil_acid_A(19)</a></td><td>1</td><td>0.00%</td>
+<td>C=NNc1ccccc1C(=O)[#8;H1]</td><tr><td>432</td><td><a href="432.html">thiaz_ene_D(8)</a></td><td>1</td><td>0.00%</td>
+<td>[#7](-c:1:c:c:c:c:c:1)-c2[n+]c(cs2)-c:3:c:c:c:c:c:3</td><tr><td>612</td><td><a href="612.html">het_pyridiniums_B(2)</a></td><td>1</td><td>0.00%</td>
+<td>[#6]:1:2:[!#1]:[#7+](:[!#1]:[#6](:[!#1]:1:[#6]:[#6]:[#6]:[#6]:2)-[*])~[#6]:[#6]</td><tr><td>444</td><td><a href="444.html">het_5_A(7)</a></td><td>1</td><td>0.00%</td>
+<td>[#7]-2(-c:1:c:c:c:c:c:1)-[#7]=[#6](-[#6]=[#8])-[#6;X4]-[#6]-2=[#8]</td><tr><td>829</td><td><a href="829.html">Crown_Ether_16CRO6</a></td><td>1</td><td>0.00%</td>
+<td>O1CCOCCOCCOCCOCCOCC1</td><tr><td>373</td><td><a href="373.html">imine_one_sixes(27)</a></td><td>1</td><td>0.00%</td>
+<td>[#6]-1(-[#6](=[#8])-[#7]-[#6](=[#8])-[#7]-[#6]-1=[#8])=[#7]</td><tr><td>536</td><td><a href="536.html">ene_cyano_D(3)</a></td><td>1</td><td>0.00%</td>
+<td>[#6](-[#6]#[#7])(-[#6]#[#7])=[#6](-[#16])-[#16]</td><tr><td>238</td><td><a href="238.html">halo_phenolic_carbonyl</a></td><td>1</td><td>0.00%</td>
+<td>C(=O)Oc1c([Cl,F])[cH1,$(c[F,Cl])]c([F,Cl])[cH1,$(c[F,Cl])]c1([F,Cl])</td><tr><td>390</td><td><a href="390.html">thiaz_ene_B(17)</a></td><td>1</td><td>0.00%</td>
+<td>[#6]NC(=O)-!@[#6]1=,:[#6]([$([N]),$(NC(=O)[#6]:[#6])])[#7]([$([#6;H2]-[#6;H1]=[#6;H2]),$([#6]=,:[#6])])[#6](=S)[#16]1</td><tr><td>274</td><td><a href="274.html">phos_threonine_warhead</a></td><td>1</td><td>0.00%</td>
+<td>NC(C(C)OP(O)(O)=O)C(O)=O</td><tr><td>239</td><td><a href="239.html">halo_phenolic_sulfonyl</a></td><td>1</td><td>0.00%</td>
+<td>S(=O)Oc1c([Cl,F])[cH1,$(c[F,Cl])]c([F,Cl])[cH1,$(c[F,Cl])]c1([F,Cl])</td><tr><td>157</td><td><a href="157.html">3halo_pyridazine_4EWG</a></td><td>1</td><td>0.00%</td>
+<td>[#7;R1]1[#6][#6]([F,Cl,Br,I])[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6][#7]1</td><tr><td>156</td><td><a href="156.html">3halo_pyridazine_2EWG</a></td><td>1</td><td>0.00%</td>
+<td>[#7;R1]1[#6]([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])[#6]([F,Cl,Br,I])[#6][#6][#7]1</td><tr><td>282</td><td><a href="282.html">polyhalo_phenol_a</a></td><td>1</td><td>0.00%</td>
+<td>c1c([O;D1])c(-[Cl,Br,I])c(-[Cl,Br,I])cc1.c1c([O;D1])c(-[Cl,Br,I])c(-[Cl,Br,I])cc1</td><tr><td>284</td><td><a href="284.html">polyhalo_phenol_c</a></td><td>1</td><td>0.00%</td>
+<td>c1c([O;D1])ccc(-[Cl,Br,I])c(-[Cl,Br,I])1.c1c([O;D1])ccc(-[Cl,Br,I])c(-[Cl,Br,I])1</td><tr><td>257</td><td><a href="257.html">ortho_hydroiminoquinone</a></td><td>1</td><td>0.00%</td>
+<td>c1c([N;D1])c([N;D1])c[cH1][cH1]1</td><tr><td>352</td><td><a href="352.html">cyano_pyridone_A(54)</a></td><td>1</td><td>0.00%</td>
+<td>N#Cc1ccc[#7;H1]c1=S</td><tr><td>237</td><td><a href="237.html">halo_olefin_bis_EWG</a></td><td>1</td><td>0.00%</td>
+<td>C([Cl,Br,I,$(O(S(=O)(=O)))])=C([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])([$(S(=O)(=O)),$(C(F)(F)(F)),$(C#N),$(N(=O)(=O)),$([N+](=O)[O-]),$(C=O)])</td><tr><td>275</td><td><a href="275.html">phos_tyrosine_warhead</a></td><td>1</td><td>0.00%</td>
+<td>NC(Cc1ccc(OP(O)(O)=O)cc1)C(O)=O</td><tr><td>271</td><td><a href="271.html">perhalo_phenyl</a></td><td>1</td><td>0.00%</td>
+<td>c1c([Br,Cl,I])c([Br,Cl,I])c([Br,Cl,I])c([Br,Cl,I])c1([Br,Cl,I])</td><tr><td>1030</td><td><a href="1030.html">Filter36_ss_double_bond</a></td><td>1</td><td>0.00%</td>
+<td>S=S</td><tr><td>22</td><td><a href="22.html">R23 Carbodiimide</a></td><td>1</td><td>0.00%</td>
+<td>N=C=N</td><tr><td>535</td><td><a href="535.html">pyrrole_H(3)</a></td><td>1</td><td>0.00%</td>
+<td>n1-2cccc1-[#6]=[#7](-[#6])-[#6]-[#6]-2</td>
+    </table>
+    </body>
+</html>
